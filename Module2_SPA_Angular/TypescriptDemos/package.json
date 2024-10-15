@@ -1,0 +1,11 @@
+{
+  "name": "typescriptdemos",
+  "version": "1.0.0",
+  "description": "typescript demos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramnath",
+  "license": "ISC"
+}

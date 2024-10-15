@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\bin\Debug\net8.0\SinglyLinkedListDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\bin\Debug\net8.0\SinglyLinkedListDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\bin\Debug\net8.0\SinglyLinkedListDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\bin\Debug\net8.0\SinglyLinkedListDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\bin\Debug\net8.0\SinglyLinkedListDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\obj\Debug\net8.0\SinglyLinkedListDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\obj\Debug\net8.0\SinglyLinkedListDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\obj\Debug\net8.0\SinglyLinkedListDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\obj\Debug\net8.0\SinglyLinkedListDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\obj\Debug\net8.0\SinglyLinkedListDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\obj\Debug\net8.0\refint\SinglyLinkedListDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\obj\Debug\net8.0\SinglyLinkedListDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\obj\Debug\net8.0\SinglyLinkedListDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\SinglyLinkedListDemo\obj\Debug\net8.0\ref\SinglyLinkedListDemo.dll

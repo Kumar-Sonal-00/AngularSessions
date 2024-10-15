@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\bin\Debug\net8.0\ListDemo2.exe
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\bin\Debug\net8.0\ListDemo2.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\bin\Debug\net8.0\ListDemo2.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\bin\Debug\net8.0\ListDemo2.dll
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\bin\Debug\net8.0\ListDemo2.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\obj\Debug\net8.0\ListDemo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\obj\Debug\net8.0\ListDemo2.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\obj\Debug\net8.0\ListDemo2.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\obj\Debug\net8.0\ListDemo2.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\obj\Debug\net8.0\ListDemo2.dll
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\obj\Debug\net8.0\refint\ListDemo2.dll
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\obj\Debug\net8.0\ListDemo2.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\obj\Debug\net8.0\ListDemo2.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\ListDemo2\obj\Debug\net8.0\ref\ListDemo2.dll

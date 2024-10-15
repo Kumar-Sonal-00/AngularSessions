@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\bin\Debug\net8.0\EqualsVsEqualOperators.exe
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\bin\Debug\net8.0\EqualsVsEqualOperators.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\bin\Debug\net8.0\EqualsVsEqualOperators.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\bin\Debug\net8.0\EqualsVsEqualOperators.dll
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\bin\Debug\net8.0\EqualsVsEqualOperators.pdb
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\obj\Debug\net8.0\EqualsVsEqualOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\obj\Debug\net8.0\EqualsVsEqualOperators.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\obj\Debug\net8.0\EqualsVsEqualOperators.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\obj\Debug\net8.0\EqualsVsEqualOperators.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\obj\Debug\net8.0\EqualsVsEqualOperators.dll
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\obj\Debug\net8.0\refint\EqualsVsEqualOperators.dll
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\obj\Debug\net8.0\EqualsVsEqualOperators.pdb
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\obj\Debug\net8.0\EqualsVsEqualOperators.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\EqualsVsEqualOperators\obj\Debug\net8.0\ref\EqualsVsEqualOperators.dll

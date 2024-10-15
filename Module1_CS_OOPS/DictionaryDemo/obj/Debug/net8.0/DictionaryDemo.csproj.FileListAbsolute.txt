@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\bin\Debug\net8.0\DictionaryDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\bin\Debug\net8.0\DictionaryDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\bin\Debug\net8.0\DictionaryDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\bin\Debug\net8.0\DictionaryDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\bin\Debug\net8.0\DictionaryDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\obj\Debug\net8.0\DictionaryDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\obj\Debug\net8.0\DictionaryDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\obj\Debug\net8.0\DictionaryDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\obj\Debug\net8.0\DictionaryDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\obj\Debug\net8.0\DictionaryDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\obj\Debug\net8.0\refint\DictionaryDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\obj\Debug\net8.0\DictionaryDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\obj\Debug\net8.0\DictionaryDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\DictionaryDemo\obj\Debug\net8.0\ref\DictionaryDemo.dll

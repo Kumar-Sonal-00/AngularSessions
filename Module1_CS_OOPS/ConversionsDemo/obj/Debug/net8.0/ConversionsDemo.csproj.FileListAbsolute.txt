@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\bin\Debug\net8.0\ConversionsDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\bin\Debug\net8.0\ConversionsDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\bin\Debug\net8.0\ConversionsDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\bin\Debug\net8.0\ConversionsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\bin\Debug\net8.0\ConversionsDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\obj\Debug\net8.0\ConversionsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\obj\Debug\net8.0\ConversionsDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\obj\Debug\net8.0\ConversionsDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\obj\Debug\net8.0\ConversionsDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\obj\Debug\net8.0\ConversionsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\obj\Debug\net8.0\refint\ConversionsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\obj\Debug\net8.0\ConversionsDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\obj\Debug\net8.0\ConversionsDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\ConversionsDemo\obj\Debug\net8.0\ref\ConversionsDemo.dll

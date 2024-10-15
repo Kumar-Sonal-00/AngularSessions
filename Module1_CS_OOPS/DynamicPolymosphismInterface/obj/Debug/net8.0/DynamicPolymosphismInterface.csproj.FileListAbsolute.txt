@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\bin\Debug\net8.0\DynamicPolymosphismInterface.exe
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\bin\Debug\net8.0\DynamicPolymosphismInterface.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\bin\Debug\net8.0\DynamicPolymosphismInterface.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\bin\Debug\net8.0\DynamicPolymosphismInterface.dll
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\bin\Debug\net8.0\DynamicPolymosphismInterface.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\obj\Debug\net8.0\DynamicPolymosphismInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\obj\Debug\net8.0\DynamicPolymosphismInterface.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\obj\Debug\net8.0\DynamicPolymosphismInterface.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\obj\Debug\net8.0\DynamicPolymosphismInterface.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\obj\Debug\net8.0\DynamicPolymosphismInterface.dll
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\obj\Debug\net8.0\refint\DynamicPolymosphismInterface.dll
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\obj\Debug\net8.0\DynamicPolymosphismInterface.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\obj\Debug\net8.0\DynamicPolymosphismInterface.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymosphismInterface\obj\Debug\net8.0\ref\DynamicPolymosphismInterface.dll

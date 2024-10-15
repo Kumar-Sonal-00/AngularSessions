@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\bin\Debug\net8.0\ArrayOfObjects.exe
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\bin\Debug\net8.0\ArrayOfObjects.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\bin\Debug\net8.0\ArrayOfObjects.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\bin\Debug\net8.0\ArrayOfObjects.dll
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\bin\Debug\net8.0\ArrayOfObjects.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\obj\Debug\net8.0\ArrayOfObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\obj\Debug\net8.0\ArrayOfObjects.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\obj\Debug\net8.0\ArrayOfObjects.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\obj\Debug\net8.0\ArrayOfObjects.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\obj\Debug\net8.0\ArrayOfObjects.dll
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\obj\Debug\net8.0\refint\ArrayOfObjects.dll
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\obj\Debug\net8.0\ArrayOfObjects.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\obj\Debug\net8.0\ArrayOfObjects.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\ArrayOfObjects\obj\Debug\net8.0\ref\ArrayOfObjects.dll

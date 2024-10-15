@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\bin\Debug\net8.0\CtorDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\bin\Debug\net8.0\CtorDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\bin\Debug\net8.0\CtorDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\bin\Debug\net8.0\CtorDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\bin\Debug\net8.0\CtorDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\obj\Debug\net8.0\CtorDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\obj\Debug\net8.0\CtorDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\obj\Debug\net8.0\CtorDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\obj\Debug\net8.0\CtorDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\obj\Debug\net8.0\CtorDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\obj\Debug\net8.0\refint\CtorDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\obj\Debug\net8.0\CtorDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\obj\Debug\net8.0\CtorDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\CtorDemo\obj\Debug\net8.0\ref\CtorDemo.dll

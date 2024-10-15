@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\bin\Debug\net8.0\HelloWorldConsole.exe
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\bin\Debug\net8.0\HelloWorldConsole.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\bin\Debug\net8.0\HelloWorldConsole.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\bin\Debug\net8.0\HelloWorldConsole.dll
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\bin\Debug\net8.0\HelloWorldConsole.pdb
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\obj\Debug\net8.0\HelloWorldConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\obj\Debug\net8.0\HelloWorldConsole.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\obj\Debug\net8.0\HelloWorldConsole.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\obj\Debug\net8.0\HelloWorldConsole.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\obj\Debug\net8.0\HelloWorldConsole.dll
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\obj\Debug\net8.0\refint\HelloWorldConsole.dll
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\obj\Debug\net8.0\HelloWorldConsole.pdb
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\obj\Debug\net8.0\HelloWorldConsole.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\HelloWorldConsole\obj\Debug\net8.0\ref\HelloWorldConsole.dll

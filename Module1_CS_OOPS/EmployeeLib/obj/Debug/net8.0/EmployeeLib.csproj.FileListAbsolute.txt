@@ -1,0 +1,11 @@
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\bin\Debug\net8.0\EmployeeLib.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\bin\Debug\net8.0\EmployeeLib.dll
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\bin\Debug\net8.0\EmployeeLib.pdb
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\obj\Debug\net8.0\EmployeeLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\obj\Debug\net8.0\EmployeeLib.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\obj\Debug\net8.0\EmployeeLib.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\obj\Debug\net8.0\EmployeeLib.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\obj\Debug\net8.0\EmployeeLib.dll
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\obj\Debug\net8.0\refint\EmployeeLib.dll
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\obj\Debug\net8.0\EmployeeLib.pdb
+C:\CGI2024_DotnetCore\AllPrjs\EmployeeLib\obj\Debug\net8.0\ref\EmployeeLib.dll

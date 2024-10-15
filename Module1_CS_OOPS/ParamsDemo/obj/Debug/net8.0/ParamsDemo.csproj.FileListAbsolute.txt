@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\bin\Debug\net8.0\ParamsDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\bin\Debug\net8.0\ParamsDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\bin\Debug\net8.0\ParamsDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\bin\Debug\net8.0\ParamsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\bin\Debug\net8.0\ParamsDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\obj\Debug\net8.0\ParamsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\obj\Debug\net8.0\ParamsDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\obj\Debug\net8.0\ParamsDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\obj\Debug\net8.0\ParamsDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\obj\Debug\net8.0\ParamsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\obj\Debug\net8.0\refint\ParamsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\obj\Debug\net8.0\ParamsDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\obj\Debug\net8.0\ParamsDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\ParamsDemo\obj\Debug\net8.0\ref\ParamsDemo.dll

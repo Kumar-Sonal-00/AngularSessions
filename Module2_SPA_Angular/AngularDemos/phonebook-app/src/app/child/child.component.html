@@ -1,0 +1,15 @@
+<p>Calculator - Child</p>
+<div>
+    X:<input type="text" [(ngModel)]="x" />
+</div>
+<div>
+    Y:<input type="text" [(ngModel)]="y" />
+</div>
+<button class="btn btn-primary" (click)="add()">Add </button>
+<button class="btn btn-primary" (click)="divide()">Divide </button>
+@if(errMsg){
+    <h4>{{errMsg}}</h4>
+}@else{
+    <h4>Result:{{this.result}}</h4>
+}
+<!-- <p>Sum:{{result}}</p> -->

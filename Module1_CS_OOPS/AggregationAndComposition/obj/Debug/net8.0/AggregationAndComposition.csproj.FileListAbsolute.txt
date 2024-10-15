@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\bin\Debug\net8.0\AggregationAndComposition.exe
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\bin\Debug\net8.0\AggregationAndComposition.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\bin\Debug\net8.0\AggregationAndComposition.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\bin\Debug\net8.0\AggregationAndComposition.dll
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\bin\Debug\net8.0\AggregationAndComposition.pdb
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.dll
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\obj\Debug\net8.0\refint\AggregationAndComposition.dll
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.pdb
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\AggregationAndComposition\obj\Debug\net8.0\ref\AggregationAndComposition.dll

@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\bin\Debug\net8.0\DeafultAndNamedParameters.exe
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\bin\Debug\net8.0\DeafultAndNamedParameters.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\bin\Debug\net8.0\DeafultAndNamedParameters.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\bin\Debug\net8.0\DeafultAndNamedParameters.dll
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\bin\Debug\net8.0\DeafultAndNamedParameters.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\obj\Debug\net8.0\DeafultAndNamedParameters.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\obj\Debug\net8.0\DeafultAndNamedParameters.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\obj\Debug\net8.0\DeafultAndNamedParameters.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\obj\Debug\net8.0\DeafultAndNamedParameters.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\obj\Debug\net8.0\DeafultAndNamedParameters.dll
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\obj\Debug\net8.0\refint\DeafultAndNamedParameters.dll
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\obj\Debug\net8.0\DeafultAndNamedParameters.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\obj\Debug\net8.0\DeafultAndNamedParameters.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\DeafultAndNamedParameters\obj\Debug\net8.0\ref\DeafultAndNamedParameters.dll

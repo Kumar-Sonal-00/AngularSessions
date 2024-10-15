@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\bin\Debug\net8.0\OutRefDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\bin\Debug\net8.0\OutRefDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\bin\Debug\net8.0\OutRefDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\bin\Debug\net8.0\OutRefDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\bin\Debug\net8.0\OutRefDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\obj\Debug\net8.0\OutRefDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\obj\Debug\net8.0\OutRefDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\obj\Debug\net8.0\OutRefDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\obj\Debug\net8.0\OutRefDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\obj\Debug\net8.0\OutRefDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\obj\Debug\net8.0\refint\OutRefDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\obj\Debug\net8.0\OutRefDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\obj\Debug\net8.0\OutRefDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\OutRefDemo\obj\Debug\net8.0\ref\OutRefDemo.dll

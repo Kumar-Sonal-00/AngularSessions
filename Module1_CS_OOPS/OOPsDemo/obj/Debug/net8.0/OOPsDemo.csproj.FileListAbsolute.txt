@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\bin\Debug\net8.0\OOPsDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\bin\Debug\net8.0\OOPsDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\bin\Debug\net8.0\OOPsDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\bin\Debug\net8.0\OOPsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\bin\Debug\net8.0\OOPsDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\obj\Debug\net8.0\OOPsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\obj\Debug\net8.0\OOPsDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\obj\Debug\net8.0\OOPsDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\obj\Debug\net8.0\OOPsDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\obj\Debug\net8.0\OOPsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\obj\Debug\net8.0\refint\OOPsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\obj\Debug\net8.0\OOPsDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\obj\Debug\net8.0\OOPsDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\OOPsDemo\obj\Debug\net8.0\ref\OOPsDemo.dll

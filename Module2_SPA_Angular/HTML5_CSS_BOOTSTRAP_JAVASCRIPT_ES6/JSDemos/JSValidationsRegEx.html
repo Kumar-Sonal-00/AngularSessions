@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function validateData() {
+            var str = '<ul>';
+            var errArr = [];
+
+            var chkEcode = true;
+            var ecPattern = /^[eE]\d{1,3}$/;
+
+            var chkEname = true;
+            var enPattern = /^[aA-zZ]{3,5}$/;
+
+            var chkSalary = true;            
+
+            var ec = document.getElementById('txtEc').value;
+            if (!ecPattern.test(ec)) {
+                chkEcode = false;
+                errArr.push('Ecode must be 3-digit number starting with e/E');
+            }
+
+            var en = document.getElementById('txtEn').value;
+            if (!enPattern.test(en)) {
+                chkEname = false;
+                errArr.push('Ename is invalid,must be A-Z characters only and 3-5 in length');
+            }
+
+
+            var sal = document.getElementById('txtSal').value;
+            if (sal <= 0) {
+                chkSalary = false;
+                errArr.push('Salary must be >0');
+            }
+
+            //-------------------------------------
+            errArr.forEach((err) => {
+                str += '<li>' + err + '</li>';
+            });
+            str += '</ul>';
+
+            document.getElementById('errMsg').innerHTML = str;
+
+            return chkEcode && chkEname && chkSalary;
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript Validations using Regular expression</h1><hr/>
+    <form onsubmit="return validateData()">
+        <table>
+            <tr>
+                <td>Enter ecode:</td>
+                <td><input type="text" id="txtEc" name="txtEc" /></td>
+            </tr>
+            <tr>
+                <td>Enter ename:</td>
+                <td><input type="text" id="txtEn" name="txtEn" /></td>
+            </tr>
+            <tr>
+                <td>Enter salary:</td>
+                <td><input type="text" id="txtSal" name="txtSal" /></td>
+            </tr>
+        </table>
+        <input type="submit"/>
+    </form>
+    <div id="errMsg" style="color:red;font-weight:bold"></div>
+</body>
+</html>

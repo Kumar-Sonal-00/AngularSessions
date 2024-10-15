@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function validateForm() {
+            var ageValue = document.getElementById("txtAge").value;
+
+            if (ageValue == '') {
+                alert('age is mandatory');
+                return false;
+            } else if (isNaN(ageValue)) {
+                alert('age must be number');
+                return false;
+            } else {
+                alert("Page is OK");
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript Form Validations</h1><hr/>
+    <form onsubmit="return validateForm()">
+        <div>
+            <label>Enter any age:</label>
+            <input type="text" id="txtAge" name="txtAge" />
+        </div>
+        <input type="submit" />
+    </form>
+</body>
+</html>

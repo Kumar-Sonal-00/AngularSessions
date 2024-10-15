@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\bin\Debug\net8.0\ExtensionMethodDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\bin\Debug\net8.0\ExtensionMethodDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\bin\Debug\net8.0\ExtensionMethodDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\bin\Debug\net8.0\ExtensionMethodDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\bin\Debug\net8.0\ExtensionMethodDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\obj\Debug\net8.0\refint\ExtensionMethodDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\obj\Debug\net8.0\ExtensionMethodDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\ExtensionMethodDemo\obj\Debug\net8.0\ref\ExtensionMethodDemo.dll

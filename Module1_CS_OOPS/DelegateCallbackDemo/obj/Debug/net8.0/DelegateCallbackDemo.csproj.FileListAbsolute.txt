@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\bin\Debug\net8.0\DelegateCallbackDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\bin\Debug\net8.0\DelegateCallbackDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\bin\Debug\net8.0\DelegateCallbackDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\bin\Debug\net8.0\DelegateCallbackDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\bin\Debug\net8.0\DelegateCallbackDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\obj\Debug\net8.0\DelegateCallbackDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\obj\Debug\net8.0\DelegateCallbackDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\obj\Debug\net8.0\DelegateCallbackDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\obj\Debug\net8.0\DelegateCallbackDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\obj\Debug\net8.0\DelegateCallbackDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\obj\Debug\net8.0\refint\DelegateCallbackDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\obj\Debug\net8.0\DelegateCallbackDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\obj\Debug\net8.0\DelegateCallbackDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\DelegateCallbackDemo\obj\Debug\net8.0\ref\DelegateCallbackDemo.dll

@@ -1,0 +1,623 @@
+Building SPA using Angular(TypeScript):
+-HTML5 , CSS, JavaScript, Bootstrap
+
+HTML4----> Hypertext Markup Language:- for designing wen pages.
+tags elements are used 
+
+W3C:- World Wide Web Consortium:- It is a body which specifies the html standards and specification.
+
+
+Basic structure of a web page:-
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+  
+</body>
+</html>
+
+basic elements:-
+1) <p>---paragraph
+2) <h1>  for headings------from h1 to h6
+3) <font size="10" color="red">, <b>,<i>,<u>
+4) <img src="pic1.jpg"/>
+5) <table>
+6) <ul>,<li>,<ol>
+7) <form>, <input type="button">
+8) hyperlink <a>
+
+
+
+HTML5---->
+Why HTML5?How it is different than HTML4
+*DOCTYPE is smaller now <!DOCTYPE html>
+* HTML5 has few tags introduced which does not depend upon external components. for e.g. for playing video/audio earlier we were supposed to install few plug-ins
+* HTML5 tags have more semantic meaningful tags like section,article, header,footer,aside,navigation tags
+* HTML5 new controls elements have been introduced.
+	 	Enter DOB: <input type="date" />
+		-number 
+		-date
+		-time
+		-color
+		-range
+		-email
+		-url
+		<video>
+e.g.
+<video autoplay controls width="400">
+    <source src="uki.mp4" />
+    This browser does not support video element
+</video>
+======================CSS===============
+Cascading Style Sheet:-
+Html has parameters to control but it has limited behaviors. So CSS gives u extra decorations and styling to web page elements.
+
+
+web page = content + styles
+CSS gives separation of content from styles which makes it more maintainable web page in terms of sharing and reusing styles for elements.
+ 
+<p>Welcome</p> ----css
+
+It has its own specifications and syntaxes:
+styles syntax:
+		attribute:value;
+	e.g.	color:red;
+
+Three ways of sharing and using CSS:-
+1) inline CSS:- styles are provided within the tag elements itself using an html parameter style="color:red"
+
+	<p style="color:red;background-color:yellow;">Welcome </p>
+it cannot be share with other elements whether same type or other.
+
+2) Embedded CSS:- It is defined in the <head> tag using html element <style>. We specify the css attribute for particular type of the element. So it will be applied for all the elements of that type in the whole page.
+
+3) External CSS:- We specify the css attributes in an external file .css and refer this file in the pages where u want to share. To refer .css file in a web page,we can use <link> within the <head>.
+
+
+4) css class:- we can share it for any type of element. 
+	.c1{color:red;}
+	<p class="c1">Welcome</p>
+
+-----------------CSS Selectors----------------------
+1) element selector:- we use here type of the element to specify css styles.
+	p
+	{
+	color:red;
+	}
+
+	p,h1{color:red;}
+2) attribute selector:- we can select elements by specifying attribute name. we use [] to select by attribute.
+
+	<input type="text" />
+	<input type="button" value="OK" />
+
+	input[type='button']{color:red;}
+
+3) id selector:- we can use attribute id for element and select the element based on attribute. we use '#' to specify id e.d. div#d1{}
+
+4) class selector:- we can select element based on css class
+		div.c1{color:red;}
+
+	<div>Line 1</div>
+	<div class="c1">Line 1</div>
+	<p>Welcome </p>
+5) descendent elements selector:- elements who are descendant of another element.
+	div p {color:red;}
+
+ 
+--css3 pseudo classes:- These are pre-defined css classes for different elements to select.
+		a:hover{}
+		a:visited{}
+		a:active{}
+	
+--------------------CSS3 border, shadow, box model-------------
+
+margins and padding css:
+
+
+-box model
+-flex model
+
+
+Bootstrap:- It is a css library provided by google and Microsoft, twitter which has bunch on css classes already defined to ease the task of web designer. We can directly use them.
+download the bootstrap css file or use CDN url available on net.
+
+Note: It gives responsive design on different screen size like desktop, tablets, mobiles, TV etc. 
+Using css we need to take care of these screen sizes but bootstrap is by default responsive.
+
+ 
+Bootstrap grid system:- 12 columns grid system.
+
+
+Bootstrap carousel:-
+
+=======================JavaScript============================
+HTML,CSS,Bootstrap:- These gives us a static page means it does not respond to the page events and user-interactiveness is not there.
+To make it dynamic or interactive, we need to use script like JavaScript or VBScript, JScript.
+
+Browsers have in-built javascript engine which processes the script and responds accordingly. Chrome Google V8 engine.
+
+-It is not strongly-typed language i.e. variables can acquire data-type at runtime based on assigned. So there is no data-type and only only sub-types means gets types decide as per data stored.
+number,bool,string,date
+
+Browsers follow some standards or specifications termed as ECMAScript, ES5/6 
+
+3 ways of using JavaScript in a page:
+1) inline:- within the element script is written 
+2) embedded:- it is written in the <script>....</script> either inside <head> or <body>
+3) external:- in a separate file .js linked in the pages using :
+	<script src="file.js"></script>
+	<script>.....</script>
+
+Chrome Dev Tools:-console, picker, errors , debugging, source file, network
+
+JavaScript:- case-sensitive and follows camelCase for functions.
+
+DOM:- Document Object Model:- It is a way of referring page and its elements like an object which gives properties,methods,events.
+
+DOM API:- interface to interact with the page elements like an object.
+
+data-types:-
+
+Boolean
+object
+number
+array
+null:-
+undefined:-
+
+
+var status=true;
+
+
+innerHTML vs innerText:- innerText considers everything as a character wheras innerHTML interprets the string as html if it contains any.
+
+
+programming constructs:
+if-else
+while
+do-while
+switch-case
+for
+forEach
+
+
+
+scopes in javascript:-
+1) global scope: defined outside all functions becomes global scope. can be referred anywhere inside the page
+2) local scope:- variables defined inside the function are local scope means outside the function cannot access.
+	function show(){
+		var x=100;
+
+	
+
+	}
+	function display(){
+		alert(x); //not accessible
+	}
+
+3) let/const block level scope:- let has block level scope and even const also has same block level scope but cannot be modified.
+
+let vs var:- when a variable is declared using 'var' whether anywhere in a block , it is considered as function level scope.
+
+
+
+==================es6 features=======================
+//ex01.js var vs let vs const
+
+const y=100;
+
+var x=0;
+console.log("before:x=",x);
+for (let x = 1; x <= 5; x++) {
+    console.log('inside loop x=',x);
+}
+console.log("after:x=",x);
+y=200;
+
+-------------------------------
+//ex02 - templated string
+
+let s1='my name is Ramnath';
+let s2="i line in Bangalore";
+let s3="this is 'angular' training";
+let s4='the training is on "angular"';
+
+let s5=`This is a new feature in ES6
+this is a multiline text
+`;
+
+console.log(s1);
+console.log(s2);
+console.log(s3);
+console.log(s4);
+console.log(s5);
+
+//templated string can use substitution of variables
+let name="Ramnath";
+let email="raman9999@gmail.com";
+let s6=`Email address of ${name} is ${email}`;
+console.log(s6);
+
+//u can use any expression also in substitution
+let age=45;
+let s7=`${name} is ${age<18?'a minor':'an adult'}`;
+console.log(s7);
+
+----------------------------
+//ex03-arrow function
+let n1=100,n2=200;
+
+//using function keyword
+function sum(a,b) {
+    let result=a+b;
+    console.log(`sum of ${a} and ${b} is ${result}`);
+}
+
+
+let subtract=function(a,b){
+    let result=a-b;
+    console.log(`Difference of ${a} and ${b} is ${result}`);
+}
+
+//arrow function
+let multiply=(a,b)=>{
+    let result=a*b;
+    console.log(`product of ${a} and ${b} is ${result}`);
+}
+
+let divide=(a,b)=>{
+  let result=a/b;
+  return result;  
+};
+
+sum(n1,n2);
+subtract(n1,n2);
+multiply(n1,n2);
+let res=divide(n2,n1);
+console.log(`Division of ${n2} and ${n1} is ${res}`);
+
+---------------------------spread operator(3 dots)---------------
+//ex04 - spread operators
+let num1=[10,20,30,40];
+//to create another array have some more numbers
+//plus numbers from the array, we use spread operator
+
+let anotherNums=[100,200,...num1];
+console.log(num1);
+console.log(anotherNums);
+
+anotherNums.push(999);
+console.log(num1);
+console.log(anotherNums);// both will have different array data
+
+//spread can also be used with objects
+let p1={name:'Ramnath',email:'raman9999@gmail.com'};
+//to cretae clone of this object with the same properties
+let p2={city:'Bangalore',...p1,country:'India'};
+console.log(p1);
+console.log(p2);
+
+------------------------rest operator(3 dots)-------------------
+//ex06.js - rest operator
+function display(name1,name2,...names){
+    console.log(name1,name2);
+    console.log('Hello,',names);
+}
+
+display('Ramnath');
+display('Ramnath','Shyam');
+display('Ramnath','Shyam','John');
+display('Ramnath','Shyam','John','Tom');
+display('Ramnath','Shyam','John','Tom',"David");
+
+---------------------defining classes--------------
+//ex07.js - defining class
+
+//if u want to define fields also in class then we shud use ctor:
+
+class Person{
+
+    constructor(name,city='Banaglore'){
+        this.name=name;
+        this.city=city;
+    }
+}
+
+let p1=new Person('Ramnath');
+let p2=new Person('John','Dallas');
+
+console.log(p1);
+console.log(p2);
+
+==================inheritance============
+//ex08.js - inheritance
+class Person{
+    constructor(name,city){
+        this.name=name;
+        this.city=city;
+    }
+}
+
+class Employee extends Person{
+    constructor(name,city,salary,deptid){        
+        super(name,city);       
+        this.salary=salary;
+        this.deptid=deptid;
+    }
+}
+
+let e1=new Employee('Ravi','Mysore',50000,201);
+console.log(e1);
+
+Note:
+*we define constructor of a class using a special keyword: 
+	constructor(){}
+*if u define constructor in derived class also, we must call base class ctor first inside derived class ctor using : super()
+* avoid calling or using 'this' keyword before super() statement.
+
+=============================Callbacks and Promises=====================
+callback function:- it is a function passed as an argument to another function.
+//es5_09.js - callback -ES5 feature
+function divide(n1,n2,callback){
+    setTimeout(()=>{
+        //console.log('divide function started');
+            if(typeof n1!=='number'){
+                callback('first argument is not a number');
+            }
+            if(typeof n2!=='number'){
+                callback('second argument is not a number');
+            }
+            if(n2===0){
+                callback('cannot divide by zero');
+            }
+            callback(null,n1/n2);        
+    },0);  
+}
+
+console.log('start of script');
+let a=10,b=5;
+let c=divide(a,b,(err,result)=>{
+    if(err){
+        console.log('There was an error:',err)
+    }else{
+        console.log('The result of division:',result);
+    }
+});
+console.log('end of script');
+
+=======================Promises================
+//es6_10.js - Promise ES6 feature
+function divide(n1,n2){ //notice there is no 3rd arg callback
+    return new Promise((resolve,reject)=>{
+        if(typeof n1 !=='number'){
+            reject('first argument is not a number');
+        }
+        if(typeof n2!=='number'){
+            reject('second argument is not a number');
+        }    
+        if(n2===0){
+            reject('cannot divide by zero');
+        }
+        resolve(n1/n2);
+    });
+}
+
+console.log('start of script');
+let a=12,b=0;
+divide(a,b).then(result=>{
+                console.log('Result of division:',result);
+}).catch(err=>{
+        console.log('There was an error:',err);
+});
+console.log('end of script');
+
+===================async/await=====================
+// async/await - ES7 feataure
+//it gives more neater code which looks like
+//synchronouse code but under the hood it is
+//stil asynchronous model
+
+function divide(n1,n2){ //notice there is no 3rd arg callback
+    return new Promise((resolve,reject)=>{
+        if(typeof n1 !=='number'){
+            reject('first argument is not a number');
+        }
+        if(typeof n2!=='number'){
+            reject('second argument is not a number');
+        }    
+        if(n2===0){
+            reject('cannot divide by zero');
+        }
+        resolve(n1/n2);
+    });
+}
+
+//==========main script===========
+console.log('start of script');
+let a=12,b=5;
+   setTimeout(async ()=>{
+       try{
+            let result = await divide(a,b);
+            console.log('Result of division:',result);       
+       }catch(err){
+            console.log('There was an error:',err);
+        }
+   },0); 
+console.log('end of script');
+
+======================Higher Order Function===================
+A 'higher-order-function' is a function that accepts a functions as an argument and returns a function/result
+
+1) map() : this function executes a callback function on each element of array. It returns a new array made up of the return values from the callback function.
+ 
+for e.g.
+let arr=[2,4,6,8,10];
+let arr2=arr.map((n)=>{return n*n;});
+
+arr2=[4,16,36,64,100];
+
+Note: The original array does not get altered and the returned array may contain different elements than original array.
+
+2) reduce() method:- The reduce() method iterates through an array and returns a single value.
+for e.g.
+	const numbers=[1,2,3,4,5];
+	const sum=numbers.reduce((accumulator,currentValue)=>{
+		return accumulator + currentValue;
+	});
+
+Note: It takes a callback function with two arguments(accumulator,currentValue) . On each iteration, accumulator is the value returned by the last iteration, and the currentValue is the current element.
+Optionally , a second argument can be passed which act as the initial value of the accumulator.
+ 
+3) The forEach() method: This method executes a callback function on each of the elements in an array in order.
+ const numbers=[28,77,45,99,27];
+numbers.forEach((n)=>{
+    console.log(n);
+});
+
+const cities=['Mysore','Jaipur','Delhi','Bangalore'];
+
+let ele="<ul>";
+cities.forEach((city)=>{
+    ele+="<li>"+city+"</li>";
+});
+ele+="</ul>";
+console.log(ele);
+
+
+
+4) The filter() method:- This method accepts a callback function and returns the filtered array based on condition specified in the callback passed as an argument.
+//filter - 
+
+const numbers=[2,11,42,14,39];
+const filteredNumbers=numbers.filter((n)=>{
+    return n>5;
+});
+
+console.log(filteredNumbers);
+
+
+-----------------------Form Validation using JavaScript-----------------
+
+isNaN(str/number)-----> returns true if it is not a number else false
+
+Regular Expression:- pattern matching validations using regex
+
+
+----------------------FETCH() to call API--------------------------
+
+----------------Unit testing using Mocha and Chai------------------
+Mocha is a testing framework for JavaScript code unit testing and Chai is an assertion library syntaxes.
+
+Node JS:- It is needed to launch the server for testing of ur code.
+Node js has its own assertion library by default if u want to use the instead of Chai assertion library.
+
+Setup for Mocha and Chai:
+1) Make sure node js is installed in ur system:
+	node -v
+can be downloaded from nodejs.org/download
+
+2) initiate the application configuration file. It is a package.json configuration for the application which gets created when app is initiated:
+	npm init
+npm: is a node package manager for installing and managing different packages from online repository. It is by default available when node js is installed. 
+	npm -v 
+
+3) install mocha and chai
+	npm install --global mocha
+	npm install --save-dev mocha
+
+--global helps to install the Mocha on computer at global level which helps to run mocha test through command line.
+
+--save-dev helps to add the mocha as dependency in package.json file for that particular project.
+
+Mocha Basic Spec:
+ var assert = require('assert');
+
+ describe('Basic Mocha String Test',function(){
+	it('should return number of characters in a string',function(){
+		assert.equal("Hello".length,4);
+	});
+	
+	it('should return first character of the string',function(){
+		assert.equal("Hello".charAt(0),"H");
+	});
+});
+
+describe():- is used to have group of some related test functions.
+it():- it is actual test method 
+
+we can do nesting of the describe() methods.
+
+
+Hooks like beforeEach() and afterEach():-
+- Few steps or code we might want to execute before or after each test to either setup preconditions before test or cleanup after test. so those code can be put inside beforeEach() and afterEach() methods.
+
+
+Chai:-
+-Chai is TDD(Test Driven Development) assertion library
+-Chai can be paired with any javascript testing framework
+-Assertion with Chai provides natural language assertions, expressive and readable style.
+
+Assertion interfaces and styles:
+-There are two popular way of assertion in Chai.
+1) The 'expect' interface provides functions for assertion.
+2) The 'should' interface extends each object with a 'should' property for assertion.
+3)'should' property gets added to the Object prototype, so that all object can access it through prototype chain.
+
+
+assert.equal(result,30)-----mocha assert
+isValid.should.be.equal.to(true);
+
+result should be equal to 30
+
+salary.should.be.greater.than(1000);
+
+4) installation;
+	npm install --save-dev chai
+
+
+-----------------testing asynchronous function using Chai-----------
+--using callback
+--using Promises
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+--------------------
+-callbacks
+-promises
+-async/await keyword
+-error handling using try/catch
+-higher order functions like map,reduce,filter,forEach
+-closure property of javascript
+
+
+
+
+
+
+
+
+
+

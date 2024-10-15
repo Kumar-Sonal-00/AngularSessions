@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\bin\Debug\net8.0\SearchingAndSorting.exe
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\bin\Debug\net8.0\SearchingAndSorting.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\bin\Debug\net8.0\SearchingAndSorting.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\bin\Debug\net8.0\SearchingAndSorting.dll
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\bin\Debug\net8.0\SearchingAndSorting.pdb
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\obj\Debug\net8.0\SearchingAndSorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\obj\Debug\net8.0\SearchingAndSorting.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\obj\Debug\net8.0\SearchingAndSorting.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\obj\Debug\net8.0\SearchingAndSorting.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\obj\Debug\net8.0\SearchingAndSorting.dll
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\obj\Debug\net8.0\refint\SearchingAndSorting.dll
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\obj\Debug\net8.0\SearchingAndSorting.pdb
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\obj\Debug\net8.0\SearchingAndSorting.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\SearchingAndSorting\obj\Debug\net8.0\ref\SearchingAndSorting.dll

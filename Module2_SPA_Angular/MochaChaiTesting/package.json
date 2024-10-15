@@ -1,0 +1,16 @@
+{
+  "name": "mochachaitesting",
+  "version": "1.0.0",
+  "description": "Unit testing using mocha and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ramnath",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^8.0.0",
+    "mocha": "^10.7.3"
+  }
+}

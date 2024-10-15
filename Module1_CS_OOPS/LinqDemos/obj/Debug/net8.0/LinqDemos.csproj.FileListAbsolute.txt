@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\bin\Debug\net8.0\LinqDemos.exe
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\bin\Debug\net8.0\LinqDemos.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\bin\Debug\net8.0\LinqDemos.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\bin\Debug\net8.0\LinqDemos.dll
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\bin\Debug\net8.0\LinqDemos.pdb
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.dll
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\obj\Debug\net8.0\refint\LinqDemos.dll
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.pdb
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\LinqDemos\obj\Debug\net8.0\ref\LinqDemos.dll

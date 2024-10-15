@@ -1,0 +1,13 @@
+Error:insufficient funds to withdraw!!!Date and Time:07-08-2024 03:36:55
+Error:Deposit amount must be more than Rs 0
+Date and Time:07-08-2024 03:37:56
+================================================================
+Error:Deposit amount must be more than Rs 0
+Date and Time:07-08-2024 03:38:23
+================================================================
+Error:Deposit amount must be more than Rs 0
+Date and Time:07-08-2024 03:38:33
+================================================================
+Error:Deposit amount must be more than Rs 0
+Date and Time:08-08-2024 07:49:11
+================================================================

@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\bin\Debug\net8.0\StringDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\bin\Debug\net8.0\StringDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\bin\Debug\net8.0\StringDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\bin\Debug\net8.0\StringDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\bin\Debug\net8.0\StringDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\obj\Debug\net8.0\StringDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\obj\Debug\net8.0\StringDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\obj\Debug\net8.0\StringDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\obj\Debug\net8.0\StringDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\obj\Debug\net8.0\StringDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\obj\Debug\net8.0\refint\StringDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\obj\Debug\net8.0\StringDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\obj\Debug\net8.0\StringDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\StringDemo\obj\Debug\net8.0\ref\StringDemo.dll

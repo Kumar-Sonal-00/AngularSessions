@@ -1,0 +1,41 @@
+
+@if(filteredContacts.length>0){
+    <h3>List of all contacts:{{filteredContacts.length}}</h3>
+}@else{
+    <h3>No contacts</h3>
+}
+
+<div class="row">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-3" style="font-weight: bold;">
+        All(<input type="radio" (click)="filterData('all')" name="r1" />)
+    </div>
+    <div class="col-sm-3" style="font-weight: bold;">
+        Male(<input type="radio" (click)="filterData('Male')" name="r1" />)
+    </div>
+    <div class="col-sm-3" style="font-weight: bold;">
+        Female(<input type="radio" (click)="filterData('Female')" name="r1" />)
+    </div>
+</div>
+
+
+<div class="list-group">  
+    @for(c of filteredContacts;track c;let i = $index){  
+        <div  class="list-group-item">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="{{c.picture}}" style="border-radius: 5px;" width="100px" height="150px"/>
+                </div>
+                <div class="col-sm-8">
+                    <h4 style="cursor: pointer;" [routerLink]="['/home',c.id]">{{i+1}}.{{c.gender|genderPipe}}{{c.firstname}} {{c.lastname}}</h4>
+                    <p>{{c.city}} {{c.state}}</p>
+                    <p>{{c.gender}}</p>
+                    <p>{{c.phone}}</p>
+                    <button [routerLink]="['/edit-contact',c.id]" class="btn btn-success" (click)="editContact()">Edit </button>
+                    <button class="btn btn-danger" (click)="deleteContact(c.id)">Delete</button>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Working with Form controls</h1><hr/>
+    <form>
+        <div>
+            <label>Enter name:</label>
+            <input type="text" value="name here" name="uname" />
+        </div>
+        <div>
+            <label>Enter password:</label>
+            <input type="password" name="pwd" />
+        </div>
+        <div>
+            <label>Select gender:</label>
+            <input type="radio" name="gender" checked value="M" />Male
+            <input type="radio" name="gender" value="F" />Female
+        </div>
+        <div>
+            <label>Select hobbies:</label>
+            <input type="checkbox" name="hoobies" value="painting" />Painting
+            <input type="checkbox" name="hobbies" value="dancing" />Dancing
+            <input type="checkbox" checked name="hobbies" value="singing" />Singing
+        </div>
+        <div>
+            <label>Select city:</label>
+            <select name="city">
+                <option value="DLI">Delhi</option>
+                <option value="MYS">Mysore</option>
+                <option value="JPR" selected>Jaipur</option>
+                <option value="CHN">Chennai</option>
+                <option value="HYD">Hyderabad</option>
+            </select>
+        </div>
+        <div>
+            <label>Address:</label>
+            <textarea name="addr" rows="5" cols="50"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Post" />
+            <input type="reset" />
+        </div>
+    </form>
+</body>
+</html>

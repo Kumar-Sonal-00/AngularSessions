@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\bin\Debug\net8.0\DateTimeDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\bin\Debug\net8.0\DateTimeDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\bin\Debug\net8.0\DateTimeDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\bin\Debug\net8.0\DateTimeDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\bin\Debug\net8.0\DateTimeDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\obj\Debug\net8.0\DateTimeDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\obj\Debug\net8.0\DateTimeDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\obj\Debug\net8.0\DateTimeDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\obj\Debug\net8.0\DateTimeDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\obj\Debug\net8.0\DateTimeDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\obj\Debug\net8.0\refint\DateTimeDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\obj\Debug\net8.0\DateTimeDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\obj\Debug\net8.0\DateTimeDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\DateTimeDemo\obj\Debug\net8.0\ref\DateTimeDemo.dll

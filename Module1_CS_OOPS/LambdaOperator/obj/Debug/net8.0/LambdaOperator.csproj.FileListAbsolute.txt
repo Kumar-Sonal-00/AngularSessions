@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\bin\Debug\net8.0\LambdaOperator.exe
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\bin\Debug\net8.0\LambdaOperator.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\bin\Debug\net8.0\LambdaOperator.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\bin\Debug\net8.0\LambdaOperator.dll
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\bin\Debug\net8.0\LambdaOperator.pdb
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\obj\Debug\net8.0\LambdaOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\obj\Debug\net8.0\LambdaOperator.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\obj\Debug\net8.0\LambdaOperator.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\obj\Debug\net8.0\LambdaOperator.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\obj\Debug\net8.0\LambdaOperator.dll
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\obj\Debug\net8.0\refint\LambdaOperator.dll
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\obj\Debug\net8.0\LambdaOperator.pdb
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\obj\Debug\net8.0\LambdaOperator.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\LambdaOperator\obj\Debug\net8.0\ref\LambdaOperator.dll

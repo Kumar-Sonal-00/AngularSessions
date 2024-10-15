@@ -1,0 +1,108 @@
+<form [formGroup]="editForm" class="form" *ngIf="contact">
+    <div class="row form-group">
+        <div class="col">
+            <label for="firstname">Firstname</label>
+        </div>
+        <div class="row form-group">
+            <input type="text" class="form-control" formControlName="firstname" id="firstname" name="firstname" />
+        </div>
+    </div>
+    <div style="color:red;font-size: 12px;font-style:italic;font-weight: bold;background-color: yellow;" class="row" *ngIf="editForm.controls['firstname'].invalid && editForm.controls['firstname'].dirty">
+        <div *ngIf="editForm.controls['firstname'].errors?.['required']">
+            Firstname is mandatory
+        </div>
+        <div *ngIf="editForm.controls['firstname'].errors?.['minlength']">
+            Firstname must be min 5 letters
+        </div>
+        <div *ngIf="editForm.controls['firstname'].errors?.['maxlength']">
+            Firstname must not be above 10 letters
+        </div>
+    </div>
+
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="lastname">Lastname</label>
+        </div>
+        <div class="row form-group">
+            <input type="text" class="form-control" formControlName="lastname" id="lastname" name="lastname" />
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="email">Email</label>
+        </div>
+        <div class="row form-group">
+            <input type="text" class="form-control" formControlName="email" id="email" name="email" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <label for="gender">Select Gender</label>
+        </div>
+        <div class="row form-group">
+            <div class="col">
+               <input type="radio" formControlName="gender" id="gender" name="gender" value="Male" />Male 
+               <input type="radio" formControlName="gender" id="gender" name="gender" value="Female" />Female 
+            </div>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <label for="phone">Phone number</label>
+        </div>
+        <div class="row form-group">
+            <input type="text" class="form-control" formControlName="phone" id="phone" name="phone" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <label for="dob">Date of birth</label>
+        </div>
+        <div class="row form-group">
+            <input type="text" class="form-control" formControlName="dob" id="dob" name="dob" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <label for="city">City</label>
+        </div>
+        <div class="row form-group">
+            <input type="text" class="form-control" formControlName="city" id="city" name="city" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <label for="state">State</label>
+        </div>
+        <div class="row form-group">
+            <input type="text" class="form-control" formControlName="state" id="state" name="state" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <label for="country">Country</label>
+        </div>
+        <div class="row form-group">
+            <input type="text" class="form-control" formControlName="country" id="country" name="country" />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <label for="picture">Picture Url</label>
+        </div>
+        <div class="row form-group">
+            <input type="text" class="form-control" formControlName="picture" id="picture" name="picture" />
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col">
+            <button [disabled]="editForm.invalid" class="btn btn-warning" (click)="saveContact(editForm.value)">Save</button>
+        </div>
+        <div class="col">
+            <button [routerLink]="['/contact-list']" class="btn btn-primary">Cancel</button>
+        </div>        
+    </div>
+</form>

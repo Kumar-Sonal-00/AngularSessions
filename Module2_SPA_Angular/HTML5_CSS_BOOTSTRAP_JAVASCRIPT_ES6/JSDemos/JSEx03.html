@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var status = true;
+        if (status) {
+            alert("true");
+        } else {
+            alert("false");
+        }
+
+        var age = 100;
+        var dob = null;
+        if (dob == undefined) {
+            alert("dob is undefined");
+        } else {
+            alert("dob:" + dob);
+        }
+        
+        var emp = {
+            ecode: 101,
+            ename: 'Ravi',
+            salary: 2000,
+            deptid:201
+        };
+
+        console.log(emp);
+
+
+        //var cities = new Array(5);
+        //cities[0] = 'Delhi';
+        //cities[1] = 'Mysore';
+        //cities[2] = 'Chennai';
+        //cities[3] = 'Mysore';
+        //cities[4] = 'Bangalore';
+        var cities = ["aaa","bbb","ccc"];
+
+        var str = "";
+        cities.forEach(function (c) {
+            alert(c);
+        });
+
+       
+        //for (var i = 0; i < cities.length; i++) {
+        //    console.log(cities[i]);
+        //}
+
+        function addItem() {
+            var data = document.getElementById("txtData").value;
+            cities.push(data);
+            alert("item added");
+        }
+        function display() {
+            var ele = "<ul>";
+            for (var i = 0; i < cities.length; i++) {
+                ele += "<li>" + cities[i] + "</li>";
+            }
+            ele += "</ul>";
+
+            document.getElementById("d1").innerHTML = ele;
+        }
+        function popData(i) {
+            cities.splice(i,1);
+            console.log(cities);
+        }
+    </script>
+    
+</head>
+<body>
+    <h1>JavaScript data-types</h1><hr />
+    Enter city:<input type="text" id="txtData" />
+    <input type="button" value="Add item" onclick="addItem()" />
+    <input type="button" value="Display" onclick="display()" />
+    <input type="button" value="Pop" onclick="popData(2)" />
+
+    <div id="d1"></div>
+</body>
+</html>

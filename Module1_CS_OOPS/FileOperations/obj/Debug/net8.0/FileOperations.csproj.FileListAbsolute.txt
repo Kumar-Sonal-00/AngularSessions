@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\bin\Debug\net8.0\FileOperations.exe
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\bin\Debug\net8.0\FileOperations.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\bin\Debug\net8.0\FileOperations.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\bin\Debug\net8.0\FileOperations.dll
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\bin\Debug\net8.0\FileOperations.pdb
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\obj\Debug\net8.0\FileOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\obj\Debug\net8.0\FileOperations.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\obj\Debug\net8.0\FileOperations.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\obj\Debug\net8.0\FileOperations.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\obj\Debug\net8.0\FileOperations.dll
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\obj\Debug\net8.0\refint\FileOperations.dll
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\obj\Debug\net8.0\FileOperations.pdb
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\obj\Debug\net8.0\FileOperations.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\FileOperations\obj\Debug\net8.0\ref\FileOperations.dll

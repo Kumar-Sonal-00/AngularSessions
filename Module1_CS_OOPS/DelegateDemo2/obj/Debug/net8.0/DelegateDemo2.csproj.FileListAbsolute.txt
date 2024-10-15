@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\bin\Debug\net8.0\DelegateDemo2.exe
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\bin\Debug\net8.0\DelegateDemo2.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\bin\Debug\net8.0\DelegateDemo2.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\bin\Debug\net8.0\DelegateDemo2.dll
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\bin\Debug\net8.0\DelegateDemo2.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\obj\Debug\net8.0\DelegateDemo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\obj\Debug\net8.0\DelegateDemo2.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\obj\Debug\net8.0\DelegateDemo2.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\obj\Debug\net8.0\DelegateDemo2.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\obj\Debug\net8.0\DelegateDemo2.dll
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\obj\Debug\net8.0\refint\DelegateDemo2.dll
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\obj\Debug\net8.0\DelegateDemo2.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\obj\Debug\net8.0\DelegateDemo2.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\DelegateDemo2\obj\Debug\net8.0\ref\DelegateDemo2.dll

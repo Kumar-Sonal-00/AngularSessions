@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\bin\Debug\net8.0\ParseVsConvertVsTryParse.exe
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\bin\Debug\net8.0\ParseVsConvertVsTryParse.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\bin\Debug\net8.0\ParseVsConvertVsTryParse.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\bin\Debug\net8.0\ParseVsConvertVsTryParse.dll
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\bin\Debug\net8.0\ParseVsConvertVsTryParse.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\obj\Debug\net8.0\ParseVsConvertVsTryParse.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\obj\Debug\net8.0\ParseVsConvertVsTryParse.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\obj\Debug\net8.0\ParseVsConvertVsTryParse.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\obj\Debug\net8.0\ParseVsConvertVsTryParse.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\obj\Debug\net8.0\ParseVsConvertVsTryParse.dll
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\obj\Debug\net8.0\refint\ParseVsConvertVsTryParse.dll
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\obj\Debug\net8.0\ParseVsConvertVsTryParse.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\obj\Debug\net8.0\ParseVsConvertVsTryParse.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\ParseVsConvertVsTryParse\obj\Debug\net8.0\ref\ParseVsConvertVsTryParse.dll

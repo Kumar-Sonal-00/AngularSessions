@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Examples</title>
+    <script src="myscript.js"></script>
+    
+</head>
+<body>
+
+    <h1>JavaScript Demo-3 ways of using JS in a page</h1><hr />
+    <input type="button" id="b1" value="Show" onclick="showMsg()" />
+    <input type="button" value="Display" onclick="display()" />
+    <script>
+        //var msg = "Good morning";
+        var btnTxt = document.getElementById("b1").value;
+        window.alert('u clicked:' + btnTxt);
+    </script>
+
+
+    <script>
+        //alert(msg);
+
+        function showMsg() {
+            var btnTxt = document.getElementById("b1").value;
+            alert('u clicked:' + btnTxt);
+        }
+    </script>
+</body>
+</html>

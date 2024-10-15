@@ -1,0 +1,581 @@
+Angular is front-end technology to develop SPA (Single-Page-Application).
+SPA updates the page content using DOM manipulations with JavaScript.
+
+ Angular 1.x ----> JavaScript
+Angular 2.0 -----> written in Typescript
+
+Typescript:-
+-Microsoft language
+-Open source
+-Multiplatform support
+-Superset of JavaScript--(typescript is transpiled into JavaScript, using babel transpiler)
+-Follows ES6 & 7 features that can execute under javascript engine nodejs at client-side as well as server-side.
+-fully object-oriented features like class,enum,interface,abstract class,inheritance, overloading
+-static data-type checking
+
+typescript----->compiler----->javascript----->nodejs runtime
+file.ts--------> tsc file.ts----->file.js
+
+Angular------>babel transpiler---->typescript into javascript
+
+VSCode------> comes with inbuilt typescript compiler
+
+
+
+setup typescript:-
+npm install -g typescript
+
+create and run ts application:
+npm init
+
+create .ts program file
+compile using : tsc file.ts
+to run: node file.js
+ 
+
+
+
+
+fetch post:
+// POST request using fetch() 
+fetch("http://localhost:3000/favourites", { 
+      
+    // Adding method type 
+    method: "POST", 
+      
+    // Adding body or contents to send 
+    body: JSON.stringify({ 
+        title: "foo", 
+        body: "bar", 
+        userId: 1 
+    }), 
+      
+    // Adding headers to the request 
+    headers: { 
+        "Content-type": "application/json; charset=UTF-8"
+    } 
+}) 
+  
+// Converting to JSON 
+.then(response => response.json()) 
+  
+// Displaying results to console 
+.then(json => console.log(json)); 
+
+
+
+
+
+
+==================Angular================
+1) Introduction
+-Open-source web application framework developed by Google and community of individuals.
+-Completely written in typescript which is superset of javascript following Es6 and Es6 is superset of Es5.
+-SPA application is achieved using one feature of angular i.e. Routing.
+
+HTML,CSS makes the presentation layer of the web application, the engine part of the application is written in typescript.
+
+2) Required software setup
+============================
+-we need nodejs from nodejs.org if needed to download
+-npm is already there with nodejs for installing and managing packages needed for web development as dependencies.
+-IDE like eclipse, Visual Studio Code (lot of easiness)
+
+-Angular CLI tool which is a command line interface to create angular projects and also to generate lot of components and also building and deploying as well.
+	npm install -g @angular/cli@17
+-to verify the angular version:
+	ng version or ng v
+
+3) Basic building block angular app is consist of :
+	Component(TS+HTML+CSS), Directives, Pipes and Injectables also known as services.
+
+-Components defines views which are set of screen elements along with your program logic and data.
+-Pipes are used for transforming component's data into different formats e.g. converts a string values into uppercase.
+-injectables are reusable typescript classes that have business logic of ur application.
+
+5) Creating first app using Angular CLI:
+-open command line and create the folder of ur choice :
+	ng new hello-world	
+-go inside the app folder :
+	cd hello-world
+	to open vs code : code .
+
+-to run the app: ng serve -o
+	
+
+-How to add bootstrap css to the application:
+install it locally as it is just used as a library not for full framework
+	a) npm install bootstrap
+	b) add the bootstrap css file in angular.json file under "styles"
+	"node_modules/bootstrap/dist/css/bootstrap.css"
+	c) restart the server if any changes made to angular.json file
+		ng serve -o
+
+
+Files structure:-
+-angular.json
+-package.json
+-index.html
+-main.ts---->bootstrapping component
+-application.component
+-decorator of component(selector,templateUrl,styleUrls + class)
+
+============Angular Component====================
+What is angular component?
+-It is a class with a template and a decorator. so these 3 things makes up a component:
+	a) Template 2) class 3) Decorator
+* Template defines the user interface. Contains HTML,directives and databindings.
+*class contains the code required for the view template. It contains properties for the view template and methods for the logic of the view template.
+*Decorator adds meta data to the class making it an Angular component.
+
+
+----------template vs templateUrl-------------
+*with inline view template , we can use 'template' instead of 'templateUrl' but we don't intelligence like autocompletion, auto indent.
+* it is recommended to use template for only few lines like 2-3 lines, more than this it is uncomfortable to handle so use templateUrl
+* we can use properties and methods defined in the component class inside the template view of the component using event binding,interpolation etc.
+
+
+---------------Databindings in Angular----------------
+1) one-way data-binding :- from component class  to view template
+interpolation:- It is all about data-binding from component class property to an html element property
+
+2) One-way data-binding:- from View template to component
+
+3) Two-way data-binding:- from component to view template and from view template to component 
+
+
+<h1>{{pageHeader}}</h1>
+<h1>{{'Name='+firstName}}</h1>
+<h1>{{10+20+30}}</h1>
+<h3>{{firstName?firstName:'No name specified'}}</h3>
+<img src='{{imagePath}}'/>
+<p>{{getData()}}</p>
+
+
+---------Property binding in Angular--------------
+It is same as interpolation i.e. binding component properties to html properties but with different syntax i.e. using []
+
+	<img src='{{imagePath}}'/>  --interpolation
+	<img [src]='imagePath' /> ---property binding syntax
+
+
+interpolation vs property binding:
+* Interpolation is a special syntax that angular converts into property binding
+To set am element property to a non-string data value, u must use property binding syntax
+<img src='http://localhost/{{imagePath}}'/>
+
+<button [disabled]='btnDisabled'>Button1</button>
+
+--------------------Class(css) binding in angular--------------------
+
+
+* use <button [ngClass]="btnCls">Button1</button>
+where btnClss='c1'; and .c1{color:red;} is defined in the component css file
+
+* for more than one css classes:
+<button [ngClass]="{c1:true,c2:true}">Button1</button>
+OR
+getCssClasses(){
+	return {
+		c1:true,
+		c2:true
+	};
+}
+<button [ngClass]="getCssClasses()">Button1</button>
+
+
+----------------Style binding in Angular------------
+There are two ways :
+1) separate styles one attribute at a time:
+<img src="{{imagePath}}" [style.width.px]="w" [style.height.px]="h"/>
+ 
+2) using method returning style attributes:
+inside component class:
+--------------------
+w:number=200;
+h:number=400;
+addStyles(){
+    let styles={
+      'width.px':this.w,
+      'height.px':this.h,
+      'background-color':'red'
+    };
+    return styles;
+  }
+--in view html-----
+<div [ngStyle]="addStyles()">
+    Hello
+  </div>
+
+---------------Angular Event Binding------------
+Following one-way bindings are from component to html element:
+-interpolation
+-property binding
+-style binding
+-class binding
+
+*Event binding flows data in the opposite direction from HTML element to component.
+
+Enter your name:<input #uname type="text" />
+<button (click)="onClick(uname.value)">Click Me</button>
+
+ onClick(value:string){
+      console.log('Welcome ',value);
+    }
+
+
+---------------Two-way databinding in Angular--------------
+*for two-way binding:
+Name:<input type="text" (input)="username=getValue($event)" [value]="username" />
+ <p>You have entered {{username}}</p>
+
+OR
+
+Name:<input type="text" [(ngModel)]="firstName" />
+<p>You have entered {{firstName}}</p>
+
+
+-banana in a box  ---- [()]
+
+-----------creating component---------
+
+ng generate component counter --prefix=''
+ng g c counter --prefix=''
+
+
+--------------Angular Directives------------
+Two types of directives:
+1) structural directives:- These will manipulate the structure of the element on which they are used.
+*structural directive are used with *
+for e.g.
+	*ngIf
+	*ngForOf
+	*ngSwitch,ngSwitchCase,ngSwitchDefault
+2) attribute directives:- ngStyle,ngClass,ngModel these are attribute directive and they just change the behavior but not the structure of the element
+
+
+===================Angular Pipes============================
+
+Pipes transform the data.
+In-built pipes:
+-uppercase
+-lowercase
+-date
+-currency
+-percent
+-decimal
+
+
+--creating ur own custom pipe
+ ng g p length
+
+
+
+--------------------Life-cycle hooks methods of a component--------------------
+
+-constructor
+-ngOnInit()-----------implements OnInit
+-ngOnChanges()------implements OnChanges
+-ngOnDestroy()------implements OnDestroy
+
+
+a) constructor :- during the initialization phase of the component it is called. Noramally it is used for dependency injection.
+Note: it is recommended not to use data initialization here as it may interact external api service and database which might take of time hence component will take more time and hence loading will be delayed.
+
+b) ngOnInit():- executes only once when the component is initialized after constructor is executed.
+
+It is called after the component is loaded into the DOM and all the data-bound properties are set.
+Here we can the data of the component and if needed data-bound properties of the components can be accessed through logic here.
+
+for e.g. subscribing to API can be done here as API data is binded with component.
+
+c) ngOnChanges():-
+It is called before ngOnInit() and whenever there is a change in the 'input' properties. It is called every time data changes. Inside this it takes an argument 'SimpleChanges' object as in input parameter. It has two properties i)currentValue ii)previousValue so that we can compare them and do all sort of things.
+
+
+d) ngOnDestroy:- This is called when component is removed or unloaded from the DOM tree. Any clean-up code for the component we can execute here before it is removed.
+
+
+
+=================Creating a Phonebook Application----a new project============
+Angular app----->Angular service---->ASP.NET Web API----->DataAcces Layer(EF Core)---->Database(Sql Server)
+
+Json server to simulate wep api service fetching json records.
+
+----installing json-server---------------------
+npm install json-server
+
+to start the json server:- npx json-server --port 4300 --watch db/data.json
+
+
+---------------Angular Services-----------------------
+These are the classes used to share some codes and logic across components to avoid recoding again and again.
+
+It follow singleton pattern i.e. it is injected only once and same instance if needed by its child components, they will use the same single instance instead of creating a new instance.
+-services are injected using constructor only with private keyword
+-Dependency injection service of the angular injects it automatically.
+
+
+
+
+Angular service(data)
+
+dependency injection service can be used to inject the angular service wherever it is needed
+
+c1
+
+c2
+
+c3---->c4--->c5
+
+c6
+ 
+---to interact web api services--------
+--we use HttpClient to interact with web api .
+-it has all the http request methods like get,post,put,delete 
+HTTP GET Request-----get to access the resource
+HTTP POST Request-----post to create the resource 
+HTTP PUT Request-----put  to update the resource
+HTTP DELETE Request-----delete to delete resource from the api server
+
+api resource is accessed using unique uri. resource can be anything like record in table or file on server and so on.
+
+angular components---->angular service class (HttpClient----->consume api(get,post,put,delete)
+
+
+----------------------------Nested Components----------------------
+---parent and child components communication
+Nested components:
+1) passing data from parent to child component---@Input()
+2) passing data from child to parent component---@Output with EventEmitter
+<parent>
+	<child [x]="100" [y]="200"></child>
+</parent>
+
+@Input() is used for the properties to be passed into child component
+
+inside child component:
+-----------------------
+@Input()
+x:number=0;
+
+@Input()
+y:number=0;
+
+
+
+
+---in-place editing in component
+
+custom pipe
+nested components communication (Input/Ouput(EventEmitter))
+in-place editing
+
+===================Angular forms====================
+There are two types of angular forms we have.
+1) Template-driven forms:- In this we have all the validations etc inside the html template itself.
+
+	we need to import FormsModule
+
+2) Reactive Forms:- All the validations logic will be inside the component class of the form rather than in html template.
+
+	we need to import ReactiveFormsModule
+
+Note:- If the form is simple and not much validations etc then we can go for template-driven forms but if extensive forms are needed then reactive is the good choice as we have more control over the forms inside the component class.
+
+add contact form---->template-driven form
+edit contact form--->reactive form
+
+
+----------------------Routing in Angular--------------------
+Navigation provides the different components loading in a placeholder called router-outlet based on url or routes configured for the navigation.
+
+ http://localhost:4200/contact-list--------> ContactListComponent
+
+ we can navigate using hyperlinks or through programming  
+
+
+with hyperlink we can use [routerLink]='[url]'
+
+
+--------------ActivatedRoute--------------
+it is used to access the route parameters values: e.g. edit-contact/:id
+
+-inject the ActivatedRoute
+-access the route parameters value: activateRoute.params.subscribe(params=>{ 
+	let id=params['id'];
+	//use the id value in program
+});
+
+
+-------navigating programatically---------------
+--inject the 'Router' service and the navigate as below:
+this.router.navigate(['/contact-list']);
+
+
+
+-Route:---represents single route information
+-Routes:- array of Route
+-RouterLink:- to specify link to a route
+-Router:- for navigating to a route through program dynamically
+-ActivatedRoute:- to access the route parameters values
+
+
+Advance routing:-
+-child routes
+-route guards:- for checking condition and then navigating to the route or exiting route.
+for e.g. /home------>guard(credentials are valid then activate the route)--returns true/false
+
+	-canActivate:- to access the route url based on conditions
+	-canDeactivate:- leave the route url based on conditions
+
+
+Note: CommonModule can be used to import all the basic directives and pipes instead of importing them individually.
+
+---------------------Angular 17 new features-----------------------
+-standalone components are the new features in Angular 17. till angular 16 it is not there. It is not required to import this in any angular module NgModule and can be imported directly in the components it is needed.
+
+-simplified directive for ngIf,ngFor,ngSwtich 
+
+	<div *ngIf="contact">
+		<p>{{contact.firstname}}</p>
+	</div>
+
+	OR
+	
+	@if(contact){
+		<p>{{contact.firstname}}</p>
+	}@else{
+		<p>No name</p>
+	}
+
+
+	<div *ngFor="let c of contacts">
+		<p>{{c.firstname}}{{c.lastname}}</p>
+	</div>
+
+	OR
+
+	@for(c of contacts;track c;let i = $index){
+		<p>{{i}}.{{c.firstname}}{{c.lastname}}</p>
+	}
+
+* to create an angular project with AppModule and no standalone components:
+	ng new prjname --no-standalone
+
+
+	@NgModule({
+		declarations:[AppComponent,CounterComponent,AddContactComponent,...],
+		imports:[FormsModule,ReactiveFormsModule],
+		providers:[]
+		bootstrap:[AppComponent]
+	})
+	export class AppModule(){}
+
+
+
+main.ts------> import the AppModule here
+		bootstrap the AppModule
+
+
+
+
+================Error handling in Angular 17=====================
+Ways of error handling in Angular:
+1) using try/catch: it is local to component and needs to be coded everywhere it is needed.
+e.g.
+divide(){
+    try{
+    if(this.y==0){
+      throw new Error('divide by zero error occurred');
+    }else{
+      this.result=Number(this.x)/Number(this.y);
+    }
+  }catch(error:any){
+    console.error(error);
+    this.errMsg=error.message;
+  }
+  }
+
+2) Custom Global exception handler: it handles uncaught errors. It is handled at one place in the configuration file app.config.
+
+steps:
+	a) define a class implementing ErrorHandler and handle the error in handleError(error) method of this interface
+	b) register or configure it in app.config file:
+	export const appConfig: ApplicationConfig = {
+  	providers: [provideRouter(routes),
+  	{ 
+  	   provide:ErrorHandler,
+  	   useClass:GlobalErrorHandler
+  	}  
+	]
+	};
+
+
+3) Asynchronous operations specially with observables require special attention.
+divide(){
+    this.http.get('http://localhost:4300/contacts').pipe(catchError((error:any)=>{
+      console.log('some error:',error.message);
+      return of([]);
+    })).subscribe(res=>{
+      console.log(res)
+    });
+  }
+
+Here if http error occurs, catchError intercepts the error and logs it and returns the default value.
+
+
+4) HttpInterceptor allows us to handle all http responses in a single place.
+
+steps:
+	i) create the interceptor : ng g interceptor ErrorInterceptor
+	export const errorInterceptorInterceptor: HttpInterceptorFn = (req, next) => {
+  		return next(req).pipe(catchError((error:any)=>{
+    		console.log('Caught in errorInterceptor',error.message);
+    		return throwError(()=>error);
+  	}));
+	};
+	ii) configure this interceptor to be used in the pipeline, app.config file:
+	
+	export const appConfig: ApplicationConfig = {
+  		providers: [provideRouter(routes),  
+  		provideHttpClient(withInterceptors([errorInterceptorInterceptor]))
+	]
+	};
+
+Note: do not import the HttpClientModule in the component as we have configured provideHttpClient with interceptor in app.config.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

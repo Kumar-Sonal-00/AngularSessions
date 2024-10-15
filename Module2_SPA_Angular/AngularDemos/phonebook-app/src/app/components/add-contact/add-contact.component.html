@@ -1,0 +1,190 @@
+<h3>Add contact details</h3>
+<p>{{contact|json}}</p>
+
+<form #f1="ngForm" class="form" *ngIf="contact">
+    <p>form is {{f1.valid}}</p>
+    
+    <div class="row form-group">
+        <div class="col">
+            <label for="firstname">Firstname</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input #firstname="ngModel" type="text" class="form-control" [(ngModel)]="contact.firstname" id="firstname" name="firstname" required minlength="5" maxlength="10"/>
+        </div>
+    </div>
+    <div *ngIf="firstname.invalid && firstname.dirty" class="row" style="color:red;font-weight:bold;font-style: italic;font-size: 12px;">
+        <div *ngIf="firstname.errors?.['required']">
+            First name is mandatory
+        </div>
+        <div *ngIf="firstname.errors?.['minlength']">
+            Please enter firstname as min 5 letters
+        </div>
+        <div *ngIf="firstname.errors?.['maxlength']">
+            Firstname should not be more than 10 letters
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <label for="lastname">Lastname</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input #lastname="ngModel" type="text" class="form-control" [(ngModel)]="contact.lastname" id="lastname" name="lastname" required minlength="5" maxlength="10"/>
+        </div>
+    </div>
+
+    <div *ngIf="lastname.invalid && lastname.dirty" class="row" style="color:red;font-weight:bold;font-style: italic;font-size: 12px;">
+        <div *ngIf="lastname.errors?.['required']">
+            Last name is mandatory
+        </div>
+        <div *ngIf="lastname.errors?.['minlength']">
+            Please enter lastname as min 5 letters
+        </div>
+        <div *ngIf="lastname.errors?.['maxlength']">
+            Lastname should not be more than 10 letters
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="email">Email address</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input #email="ngModel" type="text" class="form-control" [(ngModel)]="contact.email" id="email" name="email" required email />
+        </div>
+    </div>
+    <div *ngIf="email.invalid && email.dirty" class="row" style="color:red;font-weight:bold;font-style: italic;font-size: 12px;">
+        <div *ngIf="email.errors?.['required']">
+            email id name is mandatory
+        </div>
+        <div *ngIf="email.errors?.['email']">
+            Please enter valid email address
+        </div>       
+    </div>
+
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="dob">Date of birth</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input #dob="ngModel" type="text" class="form-control" [(ngModel)]="contact.dob" id="dob" name="dob" required />
+        </div>
+    </div>
+    <div *ngIf="dob.invalid && dob.dirty" class="row" style="color:red;font-weight:bold;font-style: italic;font-size: 12px;">
+        <div *ngIf="dob.errors?.['required']">
+            Date of birth is mandatory
+        </div>          
+    </div>
+
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="phone">Phone number</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input #phone="ngModel" type="text" class="form-control" [(ngModel)]="contact.phone" id="phone" name="phone" required pattern="\d{10,10}" />
+        </div>
+    </div>
+    <div *ngIf="phone.invalid && phone.dirty" class="row" style="color:red;font-weight:bold;font-style: italic;font-size: 12px;">
+        <div *ngIf="phone.errors?.['required']">
+            Phone number is mandatory
+        </div>
+        <div *ngIf="phone.errors?.['pattern']">
+            Phone number must be exactly 10-digits
+        </div>            
+    </div>
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="gender">Gender</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="radio" [(ngModel)]="contact.gender"  id="gender" name="gender" value="Male" required />Male
+            <input type="radio" [(ngModel)]="contact.gender" id="gender" name="gender" value="Female" required />Female
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <label for="city">City</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input #city="ngModel" type="text" class="form-control" [(ngModel)]="contact.city" id="city" name="city" required />
+        </div>
+    </div>
+    <div *ngIf="city.invalid && city.dirty" class="row" style="color:red;font-weight:bold;font-style: italic;font-size: 12px;">
+        <div *ngIf="city.errors?.['required']">
+            City is mandatory
+        </div>          
+    </div>
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="state">State</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input #state="ngModel" type="text" class="form-control" [(ngModel)]="contact.state" id="state" name="state" required />
+        </div>
+    </div>
+
+    <div *ngIf="state.invalid && state.dirty" class="row" style="color:red;font-weight:bold;font-style: italic;font-size: 12px;">
+        <div *ngIf="state.errors?.['required']">
+            State is mandatory
+        </div>          
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <label for="country">Country</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input #country="ngModel" type="text" class="form-control" [(ngModel)]="contact.country" id="country" name="country" required />
+        </div>
+    </div>
+    <div *ngIf="country.invalid && country.dirty" class="row" style="color:red;font-weight:bold;font-style: italic;font-size: 12px;">
+        <div *ngIf="country.errors?.['required']">
+            Country is mandatory
+        </div>          
+    </div>
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="picture">Picture Url</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input #picture="ngModel" type="text" class="form-control" [(ngModel)]="contact.picture" id="picture" name="picture" required />
+        </div>
+    </div>
+    <div *ngIf="picture.invalid && picture.dirty" class="row" style="color:red;font-weight:bold;font-style: italic;font-size: 12px;">
+        <div *ngIf="picture.errors?.['required']">
+            Picture Url is mandatory
+        </div>          
+    </div>
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-primary" [disabled]="f1.invalid"  (click)="addContact()">Add contact</button>
+        </div>
+        <div class="col">
+            <button [routerLink]="['/contact-list']" class="btn btn-success">Home</button>
+        </div>
+    </div>
+</form>
+

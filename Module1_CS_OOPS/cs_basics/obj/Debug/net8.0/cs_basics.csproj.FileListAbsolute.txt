@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\bin\Debug\net8.0\cs_basics.exe
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\bin\Debug\net8.0\cs_basics.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\bin\Debug\net8.0\cs_basics.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\bin\Debug\net8.0\cs_basics.dll
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\bin\Debug\net8.0\cs_basics.pdb
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\obj\Debug\net8.0\cs_basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\obj\Debug\net8.0\cs_basics.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\obj\Debug\net8.0\cs_basics.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\obj\Debug\net8.0\cs_basics.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\obj\Debug\net8.0\cs_basics.dll
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\obj\Debug\net8.0\refint\cs_basics.dll
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\obj\Debug\net8.0\cs_basics.pdb
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\obj\Debug\net8.0\cs_basics.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\cs_basics\obj\Debug\net8.0\ref\cs_basics.dll

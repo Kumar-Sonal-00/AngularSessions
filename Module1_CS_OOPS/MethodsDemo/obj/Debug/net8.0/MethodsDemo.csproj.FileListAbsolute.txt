@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\bin\Debug\net8.0\MethodsDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\bin\Debug\net8.0\MethodsDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\bin\Debug\net8.0\MethodsDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\bin\Debug\net8.0\MethodsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\bin\Debug\net8.0\MethodsDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\obj\Debug\net8.0\MethodsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\obj\Debug\net8.0\MethodsDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\obj\Debug\net8.0\MethodsDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\obj\Debug\net8.0\MethodsDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\obj\Debug\net8.0\MethodsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\obj\Debug\net8.0\refint\MethodsDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\obj\Debug\net8.0\MethodsDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\obj\Debug\net8.0\MethodsDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\MethodsDemo\obj\Debug\net8.0\ref\MethodsDemo.dll

@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\bin\Debug\net8.0\dynamicVsVar.exe
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\bin\Debug\net8.0\dynamicVsVar.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\bin\Debug\net8.0\dynamicVsVar.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\bin\Debug\net8.0\dynamicVsVar.dll
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\bin\Debug\net8.0\dynamicVsVar.pdb
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\obj\Debug\net8.0\dynamicVsVar.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\obj\Debug\net8.0\dynamicVsVar.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\obj\Debug\net8.0\dynamicVsVar.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\obj\Debug\net8.0\dynamicVsVar.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\obj\Debug\net8.0\dynamicVsVar.dll
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\obj\Debug\net8.0\refint\dynamicVsVar.dll
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\obj\Debug\net8.0\dynamicVsVar.pdb
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\obj\Debug\net8.0\dynamicVsVar.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\dynamicVsVar\obj\Debug\net8.0\ref\dynamicVsVar.dll

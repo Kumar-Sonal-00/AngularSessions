@@ -1,0 +1,1107 @@
+Algorithm: step-wise statements for solving a problem in ur own language e.g. English
+
+Adding two numbers:
+
+Step1 : Take input of two numbers
+Step2 : Add the two number in a variable
+Step3 : Display the result
+
+
+PSUEDOCODE:-
+READ N1
+READ N2
+CALCULATE SUM=N1 + N2
+PRINT SUM
+
+
+Psuedocode for checking and displaying whether number is even or odd:
+INPUT N1
+CALCULATE REMAINER=N1 MOD 2
+IF REMAINDER = 0 THEN
+	PRINT N1 IS EVEN
+ELSE 
+	PRINT N1 IS ODD
+ENDIF
+
+
+
+
+
+
+
+-Data-types:-
+1) value-types:- int,char,float,double,decimal,datetime,uint,long,ulong,byte and so on
+		struct,enum ---user-defined value-types
+2) reference-types:- string reference type primitive type
+	-arrays, class,interface ---user-defined types 
+
+programming constructs:- if-else,switch-case,for, foreach, while,do-while 
+
+operators:-
+-mathematical:- +,-,/,%,*
+-relational:- <,<=,>,>=,!=,==
+-logical :- &&,||,!
+-bitwise: >>,<<
+-string operator: =, +
+-increment/decrement: ++, --
+-shorthand : +=,-=,*=,/=
+
+
+
+
+Struct:
+-value-type user-defined data type
+-can have constructor but no destructor unlike class 
+-ctor must be parametrized 
+-can have member methods
+-fields and methods are by default private
+
+Enum:-Enumerated Data-types which uses keywords mapped to numeric codes(not decimals or string)
+-value-type user-defined type
+-first default value is 0
+
+
+
+String:-
+-reference type, immutable means it can not be modified.
+
+StringBuilder---> using this we can perform in-place editing of a string data.It is more optimized way of manipulating string than string data-type which is immutable.
+
+
+
+Arrays:- It is a data structure to store set of similar type of values.
+-reference type
+-size is fixed
+-one-type of data is stored
+
+1) Single dimension:-
+2) Multi-dimension
+	-Rectangular array( same number if items will be there in its dimension)
+	-Jagged array:- can have different number of items in a dimension
+
+3 things about array:
+-name of the array
+-size of the array(0 to n-1) 
+-data-type 
+
+difference between array.Length and array.GetLength(dimension)
+
+Nullable Types:- It is a value-type which can also store null value like reference type.
+
+int? x=100;
+x=null;
+
+Note: since it can store null value also, while accessing the value from nullable type we must always first check whether value is there or not.
+
+
+
+
+
+
+int x=100;
+x=null; //invalid as null can only be assigned to a reference type variable 
+
+
+
+select sum(salary) from employee----->null
+
+int? totalSalary=select sum(salary) from employee
+
+int or null
+
+
+
+Cohesion:- internal strength or relation
+
+main()
+{
+Task1();
+Task2();
+}
+
+Task1()
+{
+statement1
+statement2
+statement3
+}
+Task2()
+{
+statement4
+statement5
+}
+
+
+
+
+main()
+{
+statement1
+statement2
+statement3
+
+statement4
+statement5
+}
+
+
+
+passing parameters to a method: by-value or by-reference
+
+using following keywords we can pass value-type variables also by-reference
+out:- is used to make sure the parameter is always updated
+ref:- is used when the updating of variable is optional
+
+
+const and readonly:-
+const:- it is declared assigned at the same time and cannot be modified during runtime.
+
+readonly:- it can be assigned dynamically but only inside the constructor method of a class. It other methods it cannot be modified.
+
+
+Regular Expressions:- Regex is used for pattern matching of a string for validation purpose.
+
+email
+phone number
+url
+postal code
+
+string pattern ="(^ $)";
+RegEx regEx=new RegEx()
+
+regEx.IsMatch(data)---->
+
+
+*-----> 1 or more
+?-----> 0 or more i.e. optional
++-----> 1 
+\d----> digit
+\D----> any character except number
+
+
+
+
+
+OOPs Concept:
+1)Structured programming:-
+a) Top-down approach:- Procedural or function oriented programming
+Application is breaked into different sub modules or functions if it is complex and it goes on further same for the sub modules also.
+
+-In this approach functionalities are addressed first and then we choose data structures to fit into that functionality.
+
+
+"spaghetti code":- this arises when program grows and many developers are involved in it. Modifications and additions to the code becomes unhandy.
+
+-reusability of code is lesser compared to OOP approach as modules are very highly coupled to each other
+
+-ripple effect:- disturbing the code at one place may cause disturbance at many places in the application.
+
+Func1---->data-types
+Func2---->data-types
+
+b) Bottom up approach:- used is OOP approach.
+
+-In this first data structures are identified and then the functionalities related to the data structures are coded or defined.
+
+-Programmers related these with objects which are taking part in the system.
+
+Data-types(objects)------> Func1,Func2,....
+
+-Entities are termed as objects which pertain certain attributes and behaviors
+
+-objects are defined as data structure called classes.
+
+-these objects have attributes defined as fields of the classes.
+
+-behaviors of objects are defined as methods of the objects.
+
+-Relations among the objects are defined as inheritance, aggregation, composition, realizations
+
+How to identify objects and their attributes:-
+
+Employee---ecode,ename,salary,deptid,emailid,phno
+
+
+Flipkart:-emailed,phno,name,address,custid,shipping address etc
+
+Object=Data structures + Functions
+	(Program=Object + Object + Object)
+
+
+State and Behavior:-
+Example: Car object
+	State:-
+           -current speed(0----max speed)
+  	   -current gear(0,1,2,3,4)
+    	   -Engine state(Running, Not Running)
+
+	Behaviors:-(Act on the object and may change the state)
+		-Accelerate()		
+		-Stop()
+		-StartEngine()
+		-SwitchOffEngine()
+
+
+Example: Dog object
+	State:
+		-Color
+		-Breed
+		-Activity(Barking/Not barking)
+		-Tail activity (Wagging/ Not wagging)
+	Behaviors:
+		-Bark
+		-Wag Tail
+		-Eat
+
+
+A Class is a:
+	-blue print used to create objects
+	-Software template that defines the methods and variables(fields) to be included in a object.
+
+Object:- It is the instance of the class
+
+Class Car:- model,brand,maxSpeed
+
+Object or instance
+Car(
+model---> Eon era plus
+brand---> Hyundai
+maxSpeed---> 120km/hr
+)
+
+
+State(Member variables or fields):-
+
+-They are NOT exposed to the external world.
+
+Behaviors(Member methods)
+	-Behavior are exhibited by the class to external world
+
+Student:-
+	Class Student
+	--Name
+	--Rollno
+
+	Behaviors:-
+		SetName(name)
+		SetRollno(rno)
+		GetName()
+		GetRollno()
+		CalculateResult()
+
+Message passing:-
+	-An object by itself may not be very useful
+	-Work happens when an object invokes methods of another object
+	-Interactions between the objects results in 'change of state' achieving 	something useful
+
+
+SOLID patterns
+
+SRP:- Single Responsibility Principle: a method or class must only be responsible for only one task rather than doing multiple tasks.
+Their names shud depict the task or responsibility given to them.
+
+
+Array of objects:-
+
+
+constructor and destructor:-
+ctor:- It is a method of a class which is automatically called only once in the beginning when object is created.
+-its name must be same as class name
+-there is not return type of this method, not even "void"
+
+any task needed to be performed in the beginning itself , we can do it inside the ctor method. for e.g. fields value assignment or any other
+
+
+destructor:- it is also called automatically but it is called when object is destroyed.
+-its name starts with tilde(~) followed by class name 
+-normally used for releasing the resources held by the object
+
+
+ctor vs destructor
+-there is no access modifier for destructor but ctor can be private,public or static
+-ctor method can be overloaded more than once but we cannot overload destructor
+
+
+Note: 
+-private ctor does not allow object creation by the consumer
+-public ctor allows creation of object using new keyword
+-static ctor is used to initialize fields of the class
+-static ctor is called before anything is accessed from the class i.e. before non-static ctor
+-static members are called by class name only and are not meant for instances.
+-static members are allocated only once per class not for each instances
+
+
+static method can only access other static fields or methods but non-static methods can access both.
+
+ 
+
+
+
+
+
+
+class Student
+{
+	public Student()
+	{
+		---initial statements---
+	}
+
+	~Student()
+	{
+		---ending statements---
+	}
+}
+
+
+Note: by default compiler defines the default(blank) ctor for a class.
+but if we define our own parametrised ctor then compiler does not provide the default ctor. if we want it, we need to define explicitly.
+
+
+==============Relations among the objects==========================
+Three types of relations:
+ *IS-A (or kind-of) ---------> inheritance
+ * HAS-A(or Part-of)---------> Composition or Aggregation
+						(Uses-A)
+
+
+Bird and Cow are Kind-of Animal
+
+
+Bird ----> Fly
+
+Crow is a Kind-of Bird
+
+Pigeon is a Kind-of Bird
+
+
+Bird : Animal
+	-Fly()
+
+Crow : Bird    		Crow is a Kind-of Bird
+	
+
+Pigeon: Bird
+	
+
+Lion : Animal
+
+class Vehicle
+	-engine
+	-maxSpeed
+
+	-ApplyBrake()
+	-StartEngine()
+
+
+class TwoWheeler : Vehicle
+	-Stand()
+
+class FourWheeler : Vehicle	
+	-Music()
+	-Ac()
+
+
+inheritance gives reusability concept.
+constructor chaining and inheritance
+
+
+Composition :- Part-of . If the container dies and all its contained objects also cannot exist.
+
+	PolicyHolder has----->Nominee
+	Order------>Invoice
+	
+Aggregation :- Uses-
+		Student------> Course
+		Shipment-----> Details of Products
+
+
+Composition is the strong form of aggregation
+
+Computer---
+	-mouse
+	-keyboard
+	-monitor
+	-cpu
+
+
+LoanAdvisor------->uses Loan-----Kind-Of----->Home Loan, Personal Loan
+
+class Loan
+{
+}
+
+class HomeLoan : Loan
+{
+}
+class PersonalLoan : Loan
+{
+}
+
+Four principles of OOPS:-
+-Encapsulation :- putting all the related things together
+-Abstraction:- exposing only relevant details from the object
+-Inheritance:- reusability concept by using base and derived classes i.e. generalization to specialization
+-Polymorphism:- An object method behaves differently in different situation
+	two types:
+	1) static polymorphism:- it is implemented using method overloading
+		The method which is to be called is decided before execution i.e. during compilation and the object variable does not go for any data-type change at runtime. i.e. the type of object of a variable will never change during runtime.		*overloading means defining a method multiple times with different number of arguments, different data-type in a class.
+
+
+	2) dynamic polymorphism:- it is implemented using method overriding and the variable can be binded to base as well as derived instance during runtime.
+
+	overriding can be done from base to derived classes using:
+	-virtual : when a method is defined as virtual in the base class , we can override it at derived class but it is NOT MANDATORY to override. It is optional.
+	-abstract:- it is MANDATORY to override a method at derived level i.e. not optional
+	*an class must be declared as an abstract if atleast one method is an abstract
+	*an abstract class can also have non-abstract methods
+	*an abstract class cannot be instantiated
+
+interface:- if all the methods of a class are abstract, we can interface bcoz interface all methods are by default public and abstract.
+
+
+abstract vs interface:-
+	-interface all methods are by default public and abstract
+	-a class can implement more than one interface but can inherit only one class
+
+interface I1{}
+interface I2{}
+
+class Abc : I1,I2
+{
+
+}
+
+
+Access modifiers:
+-private:- accessible only inside its class, not outside, nor in derived
+-public:- accessible everywhere inside class,derived class,outside class, in other project also it is visible.
+-protected:- it can be accessible in derived classes but not outside the class
+
+
+-internal:- inside the current project it is like public but for external project it becomes private.
+
+-protected internal:-inside the current project it is like public but for external project it becomes protected.
+
+
+
+
+----Generics and Collections----------------
+-an array is a fixed-sized data-structure.
+
+ShoppingItems Cart ------> based on user's selection 
+
+Collections are of variable size data structure that can grow and shrink its size as when items are added or removed.
+
+Two types of collections:-
+1) non-generic:- everything gets type-casted as an System.object so it can store heterogeneous types of data.
+So when we access it gives everything as an System.object so we cannot access and use the value rather we have to check and typecast before use which is extra burden for programmers and may lead invalid-typecasting exception.
+
+	System.Collections
+		-ArrayList
+		-Hashtable (key/value)
+		-Stack :- LIFO(Last-In-First-Out)
+		-Queue :- FIFO(First-In-First-Out)
+
+
+2) generics:- are strongly-typed data-structure i.e. they will only one type of data of data and hence while accessing no need of extra typecasting logic as it gives whatever type is stored.
+	System.Collections.Generics
+ 		-List<>
+		-Dictionary<,>
+		-SortedDictionary<,>
+		-Stack<>--Push,Pop,Peek
+		-Queue<>
+
+
+for-index loop vs foreach loop?
+
+Linked List:-
+-Add node
+-Delete node
+-Traverse list
+
+
+
+class Node
+{
+	int data;
+	Node next;
+
+	public Node(int data)
+	{
+		this.data=data;
+		this.next=null;
+	}
+}
+
+class SinglyLinkedList
+{
+	Node head=null;
+}
+
+
+void AddNodeFront(SinglyLinkedList sl, int data)
+{
+Node newNode=new Node(data);
+newNode.next=sl.head;
+sl.head=newNode;
+}
+
+void AddNodeLast(SinglyLinkedList sl, int data)
+{
+	Node newNode=new Node(data);
+	if(sl.head==null)
+	{
+		sl.head=newNode;
+		return;
+	}
+	Node lastNode=TraverseLastNode(sl);
+	lastNode.next=newNode;
+}
+
+
+
+Sorting a collection:
+Sort():-Default sort; for primitive type collection it is already implemented
+
+For user-defined type collection, we need to implement the Sort method.
+1) Default sort:- we need the make the item object comparable by implementing IComparable<T> interface which gives CompareTo(T) method
+
+2) Custom sort: is done by defining a class which implements IComparer<T> interface which provides Compare(T,T) method its instance should be passed in the Sort(comparer) method.
+
+
+
+=====================File Operations=====================
+a) Directories and File system:- creating directories, creating files, moving and copying files and folders, renaming files and folders, deleting etc
+
+b) Reading and writing data to files
+we streams for reading and writing bytes of data :
+-File stream
+-Network stream
+-Memory stream
+
+Format used to read/write data into files:-
+1) Text format :- read/write in character
+2) Binary format:- read/write in binary mode
+
+"1234567"------> no of bytes as per character size-----10 bytes
+123456789---->int---4 bytes
+
+
+
+Text format:- System.IO
+i)Writing ------StreamWriter
+ii)Reading -----StreamReader
+
+Binary format:-
+i)writing ----- BinaryWriter
+ii)reading----- BinaryReader
+
+
+File Modes:- 
+	-Create(always overwrites),
+	-CreateNew(throws error if file is already there),
+	-Append(if file is not there, it creates new)
+	-Open(used for reading access)
+
+File Access:-
+	-Read
+	-Write
+	-ReadWrite 
+	
+Note: proper combination of FileModes and FileAccess shud be there else error will there.
+
+
+
+Properties:-
+  private fields:- private fields are accessed using these properties which is combination two methods i.e. get and set methods. 
+get:- when we want retrieve the private fields associated with the property
+set:- when we want to assign the value to the private field associate with the property.
+
+class Student
+{
+	int x;
+
+	/*public void Set(int value)
+	{
+		this.x=value;
+	}
+	public int GetX()
+	{
+		return this.x;
+	}*/
+
+	//properties
+	public int XData()
+	{
+		get{return this.x;}
+		set{this.x=value;}
+	}
+
+	public int XData{ get;set; }
+
+}
+
+
+Student s=new Student();
+s.XData=100;
+Console.WriteLine(x.XData);
+
+
+x.SetX(100);
+Console.WriteLine(x.GetX());
+===========================================================
+-Auto-implemented properties
+-Object initializer syntax
+
+
+
+
+Serialization:- It is the process of converting and saving the state of an object into a stream like file,network or memory.
+
+Deserialization:- Reading the saved state of an object from a stream into the object type.
+
+Formats for serialization:-
+1) Binary: System.Runtime.Serialization.Formatters.Binary--->BinaryFormatter----Serialize,Deserialize
+2) Xml:---System.Xml---XmlSerializer----Serialize and Deserialize
+3) JSON:- Sytem.Text.Json---->JsonSerializer---->Serialize and Serialize
+
+By default primitive data-types like int,string etc are enabled for serialization and deserialization but custom data-type are not enabled by default for ser/deser.
+
+we need to use [Serializable] for the class to be serialized.
+
+
+========================Exception Handling=====================
+Types of errors:-
+1) Syntax errors:- when keywords are not properly used or undefined keywords are used. It is reported during compilation.
+sol:- programmer should rectify these errors.
+
+2) Logical errors:- This occurs when there is output not as expected. It is a runtime error which can be analysed by running the program and testing all the execution paths and scenarios. 
+	In Visual Studio:
+	-Debugging :- removing errors using break points in debug mode of running
+		-Step-over:- Line by line debugging ----F10
+		-Step-into:- enter and debug sub-function ---F11
+		-Step-out:- finishes the debugging and continues further	
+
+	-Debug windows:-
+		-watch window:- we can watch or monitor some variables how they r changing during execution
+		-immediate window:- any expression or variables u can check output just like what-if analysis on the current state of data  
+		-Locals window:- for all the local variables and parameters when the execution is in a particular method.
+
+3) Exceptions:- Runtime errors are situational external reasons due to which program behaves abnormal and terminates even though there is no mistake in syntax and logic.
+
+Stacktrace-----create exception object----throw it to be caught and handled by application.
+
+types of exceptions:-
+1) Pre-defined:- exception class for the situation is already defined in the runtime.
+	-runtime throws it when exception occurs
+	-application should catch and handle that throw exception using try/catch/finally
+	
+2) Custom-exception:- user-defined or application exceptions. must inherit System.Exception class
+-define the exception class for the situation
+-throwing is to be done by the application itself
+-catch and handle once thrown  
+
+
+  
+
+Note:
+-we should always handle specific exception so that loss of error information will not be there.
+-we shud use last catch block as general System.Exception catch block for any missed out exception
+-one try block can have more than one catch blocks but only one finally block which is optional and it shud after the all catch blocks.
+-finally block executes in both the situations whether exception is there or not. so it is used for some common task like closing or releasing some resources like file, network , database connection etc.
+
+More best practices:
+-always show user-defined and user-friendly error msgs to end-users as exposing error details is not secure 
+-never leave the catch block empty, u will not be notified when the error occurs
+
+==============================================
+-Namespaces:- It is a logical grouping of data-types like classes, interafces, struct,enum etc into one unique name.
+usage:-
+	1) It resolves name conflict if same name is used which already defined
+	2) It gives proper cataloging of ur types to maintain and manage them while sharing across different applications
+
+*Namespaces can be nested as per hierarchy required by the applications
+*to use the classes and types from the namespace we use:
+	using name-of-nmsp;
+
+
+
+Cgi
+-Customer
+-Product
+-Hr
+	Blr
+	-Account
+	
+
+	Hyd
+	-Admin
+	
+
+namespace Cgi
+{
+
+	namespace Blr
+	{
+		class Account{}
+	}
+}
+
+namespace Cgi.Hyd
+{
+	class Hyd{}
+}
+
+
+
+
+-Classlibrary:- These applications are used for sharing classes and types in more than one applications.
+
+Steps to share the library:
+1) create the classlibray project
+2) define all the classes and types to be shared as a public
+3) Build to no errors(mandatory)
+
+4) goto to the consumer application and Add project reference of classlibrary
+5) import the namespaces in which the classes to be used are defined
+6) use the classes imported in the consumer applications
+
+
+
+-Delegates:- It is a data-type which is used in dynamic binding and invocation of methods from different objects.
+
+Unlike dynamic polymorphism, delegates can be used to bind and invoke methods from different object at runtime without having any inheritance and overriding relation among the classes.
+
+Delegates stores reference of the methods rather than object reference. These methods may belong any objects.
+
+we can compare delegates with function pointer in C/C++ which stores address of function and hence we can call those functions through that pointer.
+
+*Delegates are safer than pointers means they can only store address of function which follows the signature that has been declared with delegate
+
+3 steps in delegate:
+i) declare a delegate :- signature of the methods that can be binded
+ii) initialize:- binding the methods to be invoked
+iii) invoke:- calling the methods binded with delegate
+
+Two categories of delegates:-
+1) Single-cast delegate:- only one method at a time is binded and invoke
+2) Multi-cast delegate:- more than one method can be binded and invokes at once. It is recommended to use only void return type methods for multi-cast delegate otherwise it will return only last method's result.
+
+
+Usages:
+-Event-handling it is used very much
+-Callback notifications during asynchronous model of execution
+
+
+=======================Unit Testing============================
+Types of testing:-
+1) Unit test:- each and every method of all classes are test independently
+2) Integration test:- each modules are combined and tested bcoz sometimes methods work fine separately but when we combing with other modules then errors are shown. So we shud integration testing.
+3) System test:- After combing all the modules , whole application is tested from end-to-end as a full.
+4) Acceptance test:- UAT(User Acceptance Test):- It is done by involving the end-user to find out if there is any more errors in their environment and whether expectations have been met or not.
+
+.NET testing options:-
+-NUnit:-Traditional tool for testing
+-MSTest:-
+-xUnit:-
+
+Calculate(int x){}
+
+3 abbreviation :- AAA
+A--->Arrange:- We need to arrange all the requirement of the method to tested like any library, any parameters, any file etc
+A--->Act---executing or running the method , it gives the actual result which may correct or wrong.
+A--->Assert---it is used to match actual result against expected result. If both matches then test case is considered to be passed else failed.
+
+
+Naming conventions for the class and test methods should be followed.
+
+
+=========================S.O.L.I.D. Principles=======================================
+1) S:- SRP:- Single-Responsibilty Principle:- a class or method should be responsible for only single task rather than doing multiple unrelated tasks.
+
+2) O:- Open/Closed principle:- A class should be open enough for extension but should be closed for modifications.
+
+3) L:- Liskov Substitution Principle:- Child class should not be the substitute for its parent class.
+
+
+class Apple
+{
+	public virtual void GetColor()
+	{
+		Console.WriteLine("Red");
+	}
+}
+
+class Orange : Apple
+{
+	public override void GetColor()
+	{
+		Console.WriteLine("Orange");
+	}
+}
+
+Apple fruit=new Orange();
+fruit.GetColor();
+
+4) I:- ISP:-Interface Segregation Principle:- a class should NOT implement unnecessary interfaces. It should be properly segregated with multiple interfaces.
+
+
+interface IManager
+{
+	void AssignProject();
+	void ConductInterviews();
+}
+
+interface ITeamLeader
+{
+	void ScheduleTesting();
+	void AssignModules();
+}
+
+class TeamLeader : ITeamLeader
+{
+	void ScheduleTesting(){}
+	void AssignModules(){}
+
+}
+class Manager : IManager
+{
+	void AssignProject(){}
+	void ConductInterviews(){}
+}
+
+
+5) D:- Dependency Principle:- A higher module class should not depend on the concrete lower level modules or classes, instead of depending on concrete classes they shud depend on abstractions.
+It gives a decoupled applications.
+
+interface IDatabase
+{
+//DB Tasks methods
+}
+
+class Database : IDatabase
+{
+	//TODO
+	public Database(string conStr){}
+}
+
+class MyApp
+{
+	IDatabase db;
+	public void DoSomeTask(IDatabase db)
+	{		
+		//TODO DB Tasks
+	}
+}
+
+
+
+
+
+
+
+-Conversions
+-Parse,TryParse,Convert
+-Implicitly Typed Local Variables
+-var vs dynamic
+-Default values and named parameters
+-"Is" and "as" operators
+-params
+-Equals() vs "=="
+
+obj1-->x=10    obj2--->x=10
+
+
+
+ 
+Conversions:-
+a) value-to-value
+b) value-to-reference
+c) reference to value
+4) reference to reference
+
+
+int x=100;
+long l;
+l=x; //implicit
+
+int y=l; //explicit, data loss may occur
+
+
+
+integer
+-500         0       345   +(500)
+
+502---- -499
+
+
+=================Parse vs TryParse vs Convert====================
+//1.Parse
+//Parse is used to convert awlays from a string to target type
+//string x = null;// "100abc";
+//int n=int.Parse(x);
+//If the x is not the valid value, it gives FormatException
+//If x is null, it gives ArgumentNullException, not 0 nor FormatException
+
+//2.TryParse
+//TryParse is used to convert awlays from a string to target type
+//It returns true if parsing is successfull else false.
+//if value is invalid or null, it gives default value e.g. 0 for integer
+
+string y = null;// "100abc";
+int result;
+if (int.TryParse(y, out result))
+{
+    //Console.WriteLine(result);
+}
+else
+{
+    //Console.WriteLine("parsing failed:"+result);
+}
+
+//3. Convert
+//it is used to convert from one compatible type to another type,
+//need not be necessarily string type unlike Parse and TryParse
+
+int a = 100;
+string s = null;// "100.25abc";
+double d=Convert.ToDouble(s);
+Console.WriteLine(d);
+
+//if data is invalid, we get FormatException
+//if data is null value, it gives default value like 0 for double or int
+
+=========================Implicitly Typed Local Variables=================
+data-type of the variable is decided based on assigned value from right-side.
+we use "var" keyword for this:
+	var x=100;
+	var s="Hello";
+Note: once data-type is inferred from the assigned value, it will never change during runtime. It is not a dynamic type.
+*declaration and assignment must be at the time not in two statements
+	var x; x=100 //invalid		 var x=100; //valid
+*var cannot be passed as an method argument not used as method returned type
+public var Add( var a, var b) //invalid
+{
+	return a + b;
+}
+
+*var should not be used for class fields
+
+class Employee
+{
+	var ecode=1000; //invalid
+}
+
+====================var vs dynamic======================
+var data-type is inferred from the assigned value and never changes during its life-time by "dynamic" type can changes its type at runtime hence can be assigned different types of data.
+
+dynamic d;
+d=100;
+d="hello";
+d=new Employee();
+d=new Product();
+
+Note: no intelligence is given for dynamic type in IDE
+No need to type-cast before use
+
+
+
+
+
+Searching and Sorting:-
+1) Linear search:- 10,20,7,5,11,9,6
+2) Non-linear search:- Binary search(set must be sorted array)	
+	5,6,7, 9, 10,11,15,20
+	L	  M	    R
+	L   M	R    11,15,20
+		    L   M  R
+
+
+
+10,20,7,5,11,9,6
+5,6,7,
+
+
+
+selection sort: 10,20,7,5,11,9,6
+	idx=3
+
+		5,20,7,10,11,9,6
+		5,6,7,10,11,9,20
+		5,6,7,10,11,9,20
+		5,6,7,9,11,10,20
+		5,6,7,9,10,11,20
+
+
+Insertion Sort:-10,20,7,5,11,9,6
+
+	sorted array 		unsorted sorted array
+	5,6,7,9,10,11,20		
+
+
+======================Custom Attributes================
+
+Attributes:- These are of not much use but they are used for adding some information to a class or methods or fields etc. i.e. it adds meta-data to the elements.
+
+It is also a class whose base class System.Attribute
+
+-Reflection:- It is a way of querying meta-data information from a type or elements.
+
+System.Reflection
+
+===============LINQ==================
+LINQ:- Language Integrated Query:- It is a common programming model to query different types of data sources like RDBMS,XML,Collections etc. It was introduced from .NET 3.5.
+
+----Sql Server----DataAccess 
+----XML-----------
+
+EntityFramework + LINQ=>Query + DML operations
+
+Two flavours of Linq Syntaxes:-
+1) using operators
+2) using extension methods and lambda operator
+ 
+
+(a,b)=>{return a+b;}
+
+(msg)=>{Console.WriteLine(msg);}
+
+
+-Extension Methods:- It is used to extend methods on a type without changing or inheriting it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hobbes' based StackRoute assignments:
+=============================================
+fork
+clone
+solve the problem as per instructions
+test the solution locally also in Visual Studio
+add and commit
+push 
+evaluate on hobbes
+
+
+
+
+
+
+

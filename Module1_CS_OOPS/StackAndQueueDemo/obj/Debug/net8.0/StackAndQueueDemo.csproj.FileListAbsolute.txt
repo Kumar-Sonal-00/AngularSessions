@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\bin\Debug\net8.0\StackAndQueueDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\bin\Debug\net8.0\StackAndQueueDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\bin\Debug\net8.0\StackAndQueueDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\bin\Debug\net8.0\StackAndQueueDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\bin\Debug\net8.0\StackAndQueueDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\obj\Debug\net8.0\StackAndQueueDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\obj\Debug\net8.0\StackAndQueueDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\obj\Debug\net8.0\StackAndQueueDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\obj\Debug\net8.0\StackAndQueueDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\obj\Debug\net8.0\StackAndQueueDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\obj\Debug\net8.0\refint\StackAndQueueDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\obj\Debug\net8.0\StackAndQueueDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\obj\Debug\net8.0\StackAndQueueDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\StackAndQueueDemo\obj\Debug\net8.0\ref\StackAndQueueDemo.dll

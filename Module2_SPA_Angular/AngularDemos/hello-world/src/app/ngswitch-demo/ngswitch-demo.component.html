@@ -1,0 +1,62 @@
+<h3>ngSwitchCaseDemo</h3>
+<button class="btn btn-primary" (click)="setChoice(1)" style="margin: 2px;">Tiger</button>
+<button class="btn btn-primary" (click)="setChoice(2)" style="margin: 2px;">Lion</button>
+<button class="btn btn-primary" (click)="setChoice(3)" style="margin: 2px;">Cheetah</button>
+<button class="btn btn-primary" (click)="setChoice(4)" style="margin: 2px;">Eagle</button>
+<button class="btn btn-primary" (click)="setChoice(5)" style="margin: 2px;">Python</button>
+
+<div [ngSwitch]="ch">
+    <div *ngSwitchCase="1">
+        <div class="row">
+            <div class="col">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/390px-Walking_tiger_female.jpg" width="400" />
+            </div>
+            <div class="col">
+                <p>
+                    The tiger (Panthera tigris) is a member of the genus Panthera 
+                    <br/>and the largest living cat species native to Asia. 
+                    <br/>It has a powerful, muscular body with a large head and paws, 
+                    <br/>a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise only two subspecies, mainland Asian tigers 
+                    <br/>and the island tigers of the Sunda Islands.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div *ngSwitchCase="2">
+        <div class="row">
+            <div class="col">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/330px-Lion_waiting_in_Namibia.jpg" width="400" />
+            </div>
+            <div class="col">
+                <p>
+                    The tiger (Panthera tigris) is a member of the genus Panthera 
+                    <br/>and the largest living cat species native to Asia. 
+                    <br/>It has a powerful, muscular body with a large head and paws, 
+                    <br/>a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise only two subspecies, mainland Asian tigers 
+                    <br/>and the island tigers of the Sunda Islands.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div *ngSwitchCase="3">
+        <div class="row">
+            <div class="col">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Male_cheetah_facing_left_in_South_Africa.jpg/330px-Male_cheetah_facing_left_in_South_Africa.jpg" width="400" />
+            </div>
+            <div class="col">
+                <p>
+                    The cheetah (Acinonyx jubatus) is a large cat and the fastest land animal. It has a tawny to creamy white or pale buff fur that is marked with evenly spaced, 
+                    <br/>solid black spots. The head is small and rounded,
+                </p>
+            </div>
+        </div>
+    </div>
+    <div *ngSwitchCase="4">
+        Eagle
+    </div>
+    <div *ngSwitchDefault>
+        Python - under construction
+    </div>
+</div>
+
+

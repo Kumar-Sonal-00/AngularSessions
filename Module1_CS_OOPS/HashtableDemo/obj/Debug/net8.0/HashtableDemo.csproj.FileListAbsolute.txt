@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\bin\Debug\net8.0\HashtableDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\bin\Debug\net8.0\HashtableDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\bin\Debug\net8.0\HashtableDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\bin\Debug\net8.0\HashtableDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\bin\Debug\net8.0\HashtableDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\obj\Debug\net8.0\refint\HashtableDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\HashtableDemo\obj\Debug\net8.0\ref\HashtableDemo.dll

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function getData() {
+            let id = document.getElementById('txtId').value;
+
+            fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
+                .then(response => response.json())
+                .then((data) => {
+                    let ele = '';
+                    for (let prop in data) {
+                        ele+=`${prop}:${data[prop]}<br/>`;
+                    }
+
+                    document.getElementById('d1').innerHTML = ele;
+                });
+        }
+    </script>
+</head>
+<body>
+    <h1>Fetch API using JavaScript</h1><hr/>
+    <label>Enter id:</label>
+    <input type="text" id="txtId" />
+    <input type="button" value="Fetch API" onclick="getData()"/>
+
+    <div id="d1"></div>
+
+</body>
+</html>

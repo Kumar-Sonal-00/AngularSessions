@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\bin\Debug\net8.0\const_readonly.exe
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\bin\Debug\net8.0\const_readonly.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\bin\Debug\net8.0\const_readonly.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\bin\Debug\net8.0\const_readonly.dll
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\bin\Debug\net8.0\const_readonly.pdb
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\obj\Debug\net8.0\const_readonly.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\obj\Debug\net8.0\const_readonly.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\obj\Debug\net8.0\const_readonly.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\obj\Debug\net8.0\const_readonly.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\obj\Debug\net8.0\const_readonly.dll
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\obj\Debug\net8.0\refint\const_readonly.dll
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\obj\Debug\net8.0\const_readonly.pdb
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\obj\Debug\net8.0\const_readonly.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\const_readonly\obj\Debug\net8.0\ref\const_readonly.dll

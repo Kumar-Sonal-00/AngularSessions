@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\obj\Debug\net8.0\refint\PropertiesDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\PropertiesDemo\obj\Debug\net8.0\ref\PropertiesDemo.dll

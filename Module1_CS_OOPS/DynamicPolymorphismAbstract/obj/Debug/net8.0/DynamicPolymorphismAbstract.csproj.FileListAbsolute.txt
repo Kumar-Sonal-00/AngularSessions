@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\bin\Debug\net8.0\DynamicPolymorphismAbstract.exe
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\bin\Debug\net8.0\DynamicPolymorphismAbstract.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\bin\Debug\net8.0\DynamicPolymorphismAbstract.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\bin\Debug\net8.0\DynamicPolymorphismAbstract.dll
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\bin\Debug\net8.0\DynamicPolymorphismAbstract.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\obj\Debug\net8.0\DynamicPolymorphismAbstract.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\obj\Debug\net8.0\DynamicPolymorphismAbstract.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\obj\Debug\net8.0\DynamicPolymorphismAbstract.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\obj\Debug\net8.0\DynamicPolymorphismAbstract.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\obj\Debug\net8.0\DynamicPolymorphismAbstract.dll
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\obj\Debug\net8.0\refint\DynamicPolymorphismAbstract.dll
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\obj\Debug\net8.0\DynamicPolymorphismAbstract.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\obj\Debug\net8.0\DynamicPolymorphismAbstract.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismAbstract\obj\Debug\net8.0\ref\DynamicPolymorphismAbstract.dll

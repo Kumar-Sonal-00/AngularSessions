@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\bin\Debug\net8.0\SortProductCollection.exe
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\bin\Debug\net8.0\SortProductCollection.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\bin\Debug\net8.0\SortProductCollection.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\bin\Debug\net8.0\SortProductCollection.dll
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\bin\Debug\net8.0\SortProductCollection.pdb
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\obj\Debug\net8.0\SortProductCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\obj\Debug\net8.0\SortProductCollection.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\obj\Debug\net8.0\SortProductCollection.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\obj\Debug\net8.0\SortProductCollection.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\obj\Debug\net8.0\SortProductCollection.dll
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\obj\Debug\net8.0\refint\SortProductCollection.dll
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\obj\Debug\net8.0\SortProductCollection.pdb
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\obj\Debug\net8.0\SortProductCollection.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\SortProductCollection\obj\Debug\net8.0\ref\SortProductCollection.dll

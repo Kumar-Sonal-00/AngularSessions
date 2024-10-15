@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\bin\Debug\net8.0\IsAndAsOperators.exe
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\bin\Debug\net8.0\IsAndAsOperators.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\bin\Debug\net8.0\IsAndAsOperators.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\bin\Debug\net8.0\IsAndAsOperators.dll
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\bin\Debug\net8.0\IsAndAsOperators.pdb
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\obj\Debug\net8.0\IsAndAsOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\obj\Debug\net8.0\IsAndAsOperators.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\obj\Debug\net8.0\IsAndAsOperators.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\obj\Debug\net8.0\IsAndAsOperators.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\obj\Debug\net8.0\IsAndAsOperators.dll
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\obj\Debug\net8.0\refint\IsAndAsOperators.dll
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\obj\Debug\net8.0\IsAndAsOperators.pdb
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\obj\Debug\net8.0\IsAndAsOperators.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\IsAndAsOperators\obj\Debug\net8.0\ref\IsAndAsOperators.dll

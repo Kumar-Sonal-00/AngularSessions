@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\bin\Debug\net8.0\UserDefinedExceptionDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\bin\Debug\net8.0\UserDefinedExceptionDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\bin\Debug\net8.0\UserDefinedExceptionDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\bin\Debug\net8.0\UserDefinedExceptionDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\bin\Debug\net8.0\UserDefinedExceptionDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\obj\Debug\net8.0\UserDefinedExceptionDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\obj\Debug\net8.0\UserDefinedExceptionDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\obj\Debug\net8.0\UserDefinedExceptionDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\obj\Debug\net8.0\UserDefinedExceptionDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\obj\Debug\net8.0\UserDefinedExceptionDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\obj\Debug\net8.0\refint\UserDefinedExceptionDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\obj\Debug\net8.0\UserDefinedExceptionDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\obj\Debug\net8.0\UserDefinedExceptionDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\UserDefinedExceptionDemo\obj\Debug\net8.0\ref\UserDefinedExceptionDemo.dll

@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\bin\Debug\net8.0\SOLID_Principles_Demo.exe
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\bin\Debug\net8.0\SOLID_Principles_Demo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\bin\Debug\net8.0\SOLID_Principles_Demo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\bin\Debug\net8.0\SOLID_Principles_Demo.dll
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\bin\Debug\net8.0\SOLID_Principles_Demo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\obj\Debug\net8.0\SOLID_Principles_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\obj\Debug\net8.0\SOLID_Principles_Demo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\obj\Debug\net8.0\SOLID_Principles_Demo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\obj\Debug\net8.0\SOLID_Principles_Demo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\obj\Debug\net8.0\SOLID_Principles_Demo.dll
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\obj\Debug\net8.0\refint\SOLID_Principles_Demo.dll
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\obj\Debug\net8.0\SOLID_Principles_Demo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\obj\Debug\net8.0\SOLID_Principles_Demo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\SOLID_Principles_Demo\obj\Debug\net8.0\ref\SOLID_Principles_Demo.dll

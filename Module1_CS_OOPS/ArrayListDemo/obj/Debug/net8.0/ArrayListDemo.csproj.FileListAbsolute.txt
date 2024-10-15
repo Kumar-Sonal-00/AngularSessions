@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\bin\Debug\net8.0\ArrayListDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\bin\Debug\net8.0\ArrayListDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\bin\Debug\net8.0\ArrayListDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\bin\Debug\net8.0\ArrayListDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\bin\Debug\net8.0\ArrayListDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\obj\Debug\net8.0\refint\ArrayListDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\ArrayListDemo\obj\Debug\net8.0\ref\ArrayListDemo.dll

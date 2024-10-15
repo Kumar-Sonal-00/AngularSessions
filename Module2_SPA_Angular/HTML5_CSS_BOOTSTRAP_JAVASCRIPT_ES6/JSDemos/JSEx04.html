@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function calculate(choice) {            
+            var n1 = Number(document.getElementById("txtN1").value);
+            var n2 = Number(document.getElementById("txtN2").value);
+            var result;
+
+            switch (choice) {
+                case 1:
+                    result = n1 + n2;
+                    break;
+                case 2:
+                    result = n1 - n2;
+                    break;
+                case 3:
+                    result = n1 * n2;
+                    break;
+            }
+            document.getElementById("p1").innerText = "Result:" + result;
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript Demo-parse method</h1><hr />
+    <table>
+        <tr>
+            <td>Number1:</td>
+            <td>
+                <input type="text" id="txtN1" />
+            </td>
+        </tr>
+        <tr>
+            <td>Number2:</td>
+            <td>
+                <input type="text" id="txtN2" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Add" onclick="calculate(1)" />
+                <input type="button" value="Subtract" onclick="calculate(2)" />
+                <input type="button" value="Multiply" onclick="calculate(3)" />
+            </td>
+        </tr>
+    </table>
+    <p id="p1"></p>
+</body>
+</html>

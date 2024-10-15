@@ -1,0 +1,11 @@
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\bin\Debug\net8.0\NUnitTestingDemoLib.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\bin\Debug\net8.0\NUnitTestingDemoLib.dll
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\bin\Debug\net8.0\NUnitTestingDemoLib.pdb
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\obj\Debug\net8.0\NUnitTestingDemoLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\obj\Debug\net8.0\NUnitTestingDemoLib.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\obj\Debug\net8.0\NUnitTestingDemoLib.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\obj\Debug\net8.0\NUnitTestingDemoLib.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\obj\Debug\net8.0\NUnitTestingDemoLib.dll
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\obj\Debug\net8.0\refint\NUnitTestingDemoLib.dll
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\obj\Debug\net8.0\NUnitTestingDemoLib.pdb
+C:\CGI2024_DotnetCore\AllPrjs\NUnitTestingDemoLib\obj\Debug\net8.0\ref\NUnitTestingDemoLib.dll

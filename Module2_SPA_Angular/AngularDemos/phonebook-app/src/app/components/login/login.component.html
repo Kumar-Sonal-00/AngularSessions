@@ -1,0 +1,19 @@
+<p>login works!</p>
+<div class="row">
+    <div class="col">
+        <label for="username">User name:</label>
+    </div>
+    <div class="col">
+        <input type="text" [(ngModel)]="username" id="username" name="username"/>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <label for="password">Password:</label>
+    </div>
+    <div class="col">
+        <input type="text" [(ngModel)]="password" id="password" name="password"/>
+    </div>
+</div>
+
+<button class="btn btn-warning" (click)="login()">Login</button>

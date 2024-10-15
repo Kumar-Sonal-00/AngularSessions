@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\bin\Debug\net8.0\DynamicPolymorphismVirtual.exe
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\bin\Debug\net8.0\DynamicPolymorphismVirtual.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\bin\Debug\net8.0\DynamicPolymorphismVirtual.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\bin\Debug\net8.0\DynamicPolymorphismVirtual.dll
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\bin\Debug\net8.0\DynamicPolymorphismVirtual.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\obj\Debug\net8.0\DynamicPolymorphismVirtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\obj\Debug\net8.0\DynamicPolymorphismVirtual.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\obj\Debug\net8.0\DynamicPolymorphismVirtual.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\obj\Debug\net8.0\DynamicPolymorphismVirtual.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\obj\Debug\net8.0\DynamicPolymorphismVirtual.dll
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\obj\Debug\net8.0\refint\DynamicPolymorphismVirtual.dll
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\obj\Debug\net8.0\DynamicPolymorphismVirtual.pdb
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\obj\Debug\net8.0\DynamicPolymorphismVirtual.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\DynamicPolymorphismVirtual\obj\Debug\net8.0\ref\DynamicPolymorphismVirtual.dll

@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\bin\Debug\net8.0\ArraysDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\bin\Debug\net8.0\ArraysDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\bin\Debug\net8.0\ArraysDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\bin\Debug\net8.0\ArraysDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\bin\Debug\net8.0\ArraysDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\obj\Debug\net8.0\refint\ArraysDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\ArraysDemo\obj\Debug\net8.0\ref\ArraysDemo.dll

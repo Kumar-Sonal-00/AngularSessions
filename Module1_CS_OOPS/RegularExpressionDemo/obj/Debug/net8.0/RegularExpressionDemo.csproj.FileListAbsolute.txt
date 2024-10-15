@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\bin\Debug\net8.0\RegularExpressionDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\bin\Debug\net8.0\RegularExpressionDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\bin\Debug\net8.0\RegularExpressionDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\bin\Debug\net8.0\RegularExpressionDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\bin\Debug\net8.0\RegularExpressionDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\obj\Debug\net8.0\RegularExpressionDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\obj\Debug\net8.0\RegularExpressionDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\obj\Debug\net8.0\RegularExpressionDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\obj\Debug\net8.0\RegularExpressionDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\obj\Debug\net8.0\RegularExpressionDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\obj\Debug\net8.0\refint\RegularExpressionDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\obj\Debug\net8.0\RegularExpressionDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\obj\Debug\net8.0\RegularExpressionDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\RegularExpressionDemo\obj\Debug\net8.0\ref\RegularExpressionDemo.dll

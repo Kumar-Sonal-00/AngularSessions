@@ -1,0 +1,114 @@
+<h3>Developed by Ramnath Nishad</h3>
+<div *ngIf="contact">
+    <div *ngIf="!isEditable">
+        <img src="{{contact.picture}}" width="300" height="400" />
+        <div class="row">
+            <div class="col-sm-4">
+                Id
+            </div>
+            <div class="col-sm-8">
+                {{contact.id}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                First name:
+            </div>
+            <div class="col-sm-8">
+                {{contact.firstname}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                Last name:
+            </div>
+            <div class="col-sm-8">
+                {{contact.lastname}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                Gender:
+            </div>
+            <div class="col-sm-8">
+                {{contact.gender}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                Email id:
+            </div>
+            <div class="col-sm-8">
+                {{contact.email}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                Date of birth:
+            </div>
+            <div class="col-sm-8">
+                {{contact.dob|date:'dd-MM-yyyy'}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                Phone number:
+            </div>
+            <div class="col-sm-8">
+                {{contact.phone}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                City
+            </div>
+            <div class="col-sm-8">
+                {{contact.city}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                State
+            </div>
+            <div class="col-sm-8">
+                {{contact.state}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                Country
+            </div>
+            <div class="col-sm-8">
+                {{contact.country}}
+            </div>
+        </div>
+    </div>
+    <div *ngIf="isEditable">
+        <div class="row">
+            <div class="col-sm-4">
+                First name:
+            </div>
+            <div class="col-sm-8">
+                <input type="text" [(ngModel)]="contact.firstname" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                Last name:
+            </div>
+            <div class="col-sm-8">
+                <input type="text" [(ngModel)]="contact.lastname" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4">
+        <button class="btn btn-primary" (click)="toggleEdit()">{{isEditable?'Save':'Edit'}} </button>
+    </div>
+    <div class="col-sm-8">
+        <button [routerLink]="['/home']" class="btn btn-success">Home </button>
+    </div>
+</div>
+<router-outlet></router-outlet>

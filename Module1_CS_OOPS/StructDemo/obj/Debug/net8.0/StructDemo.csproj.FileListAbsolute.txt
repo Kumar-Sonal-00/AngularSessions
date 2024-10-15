@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\bin\Debug\net8.0\StructDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\bin\Debug\net8.0\StructDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\bin\Debug\net8.0\StructDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\bin\Debug\net8.0\StructDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\bin\Debug\net8.0\StructDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\obj\Debug\net8.0\StructDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\obj\Debug\net8.0\StructDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\obj\Debug\net8.0\StructDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\obj\Debug\net8.0\StructDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\obj\Debug\net8.0\StructDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\obj\Debug\net8.0\refint\StructDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\obj\Debug\net8.0\StructDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\obj\Debug\net8.0\StructDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\StructDemo\obj\Debug\net8.0\ref\StructDemo.dll

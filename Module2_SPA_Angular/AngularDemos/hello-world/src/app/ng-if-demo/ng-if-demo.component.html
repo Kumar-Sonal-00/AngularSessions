@@ -1,0 +1,13 @@
+
+
+<h3 *ngIf="firstName">Welcome {{firstName|lowercase}}</h3>
+
+<ul>
+    <li *ngFor="let n of names">{{n | uppercase}}</li>
+</ul>
+
+<p>Salary:{{salary|number:'6.3' }}</p>
+<p>Date of birth:{{dob|date:'MMM d, y'}}</p>
+<p>Profit percentage: {{profit | percent}}</p>
+
+<p>Number of character in first name {{firstName}} is {{firstName | length:gender}}</p>

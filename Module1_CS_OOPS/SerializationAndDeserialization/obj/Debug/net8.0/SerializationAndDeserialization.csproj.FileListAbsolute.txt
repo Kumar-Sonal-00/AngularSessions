@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\obj\Debug\net8.0\SerializationAndDeserialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\obj\Debug\net8.0\SerializationAndDeserialization.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\obj\Debug\net8.0\SerializationAndDeserialization.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\obj\Debug\net8.0\SerializationAndDeserialization.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\bin\Debug\net8.0\SerializationAndDeserialization.exe
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\bin\Debug\net8.0\SerializationAndDeserialization.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\bin\Debug\net8.0\SerializationAndDeserialization.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\bin\Debug\net8.0\SerializationAndDeserialization.dll
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\bin\Debug\net8.0\SerializationAndDeserialization.pdb
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\obj\Debug\net8.0\SerializationAndDeserialization.dll
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\obj\Debug\net8.0\refint\SerializationAndDeserialization.dll
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\obj\Debug\net8.0\SerializationAndDeserialization.pdb
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\obj\Debug\net8.0\SerializationAndDeserialization.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\SerializationAndDeserialization\obj\Debug\net8.0\ref\SerializationAndDeserialization.dll

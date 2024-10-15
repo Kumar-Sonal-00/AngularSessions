@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function show() {  
+
+            var x = 100;
+            console.log("outside before for:", x);
+            for (let x = 1; x <= 5; x++) {
+                var a;
+                console.log("inside for:", x);
+            }
+            console.log("outside-after for:", x);
+        }
+    </script>
+</head>
+<body onload="show()">
+    
+</body>
+</html>

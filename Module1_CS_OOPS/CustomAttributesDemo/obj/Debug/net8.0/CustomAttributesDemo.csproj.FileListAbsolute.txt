@@ -1,0 +1,14 @@
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\bin\Debug\net8.0\CustomAttributesDemo.exe
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\bin\Debug\net8.0\CustomAttributesDemo.deps.json
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\bin\Debug\net8.0\CustomAttributesDemo.runtimeconfig.json
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\bin\Debug\net8.0\CustomAttributesDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\bin\Debug\net8.0\CustomAttributesDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.AssemblyInfoInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.AssemblyInfo.cs
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.csproj.CoreCompileInputs.cache
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\obj\Debug\net8.0\refint\CustomAttributesDemo.dll
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.pdb
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.genruntimeconfig.cache
+C:\CGI2024_DotnetCore\AllPrjs\CustomAttributesDemo\obj\Debug\net8.0\ref\CustomAttributesDemo.dll

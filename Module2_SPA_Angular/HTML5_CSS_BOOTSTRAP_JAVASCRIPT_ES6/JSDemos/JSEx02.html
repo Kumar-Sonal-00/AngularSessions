@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function setStyle() {
+            var ele = document.getElementById("x");
+            ele.style.color = "red";
+            ele.style.fontSize = "30px";
+        }
+        function setBkStyle() {
+            var ele = document.getElementById("x");
+            ele.style.color = "blue";
+            ele.style.fontSize = "20px";
+        }
+        function setColor(ele) {
+            document.bgColor = ele.value;
+
+            //if (colorCode == 1) {
+            //    document.bgColor = "red";
+            //} else if (colorCode == 2) {
+            //    document.bgColor = "green";
+            //} else {
+            //    document.bgColor = "blue";
+            //}
+        }
+    </script>
+</head>
+<body>
+    <h1 id="x" onmouseover="setStyle()"
+        onmouseout="setBkStyle()">
+        JavaScript Mouse Events
+    </h1><hr />
+
+    <input type="button" value="Red" onclick="setColor(this)" />
+    <input type="button" value="Green" onclick="setColor(this)" />
+    <input type="button" value="Blue" onclick="setColor(this)" />
+
+</body>
+</html>
